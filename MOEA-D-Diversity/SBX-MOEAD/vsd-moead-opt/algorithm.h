@@ -145,6 +145,7 @@ double CMOEAD::get_distance_near_point( vector<int> &SetA, int index,  vector<CI
 {
 
    double min_distance = INFINITY;
+
    if(SetA.empty()) return min_distance;
 
 
@@ -156,7 +157,7 @@ double CMOEAD::get_distance_near_point( vector<int> &SetA, int index,  vector<CI
 
 int CMOEAD::max_near_point(vector<int> &reference, vector<CIndividual> &candidates, vector<int> &penalized, vector<bool> &active)
 {
-   int index, kpenalized;
+   int index=-1, kpenalized=-1;
    double max_dcn = -INFINITY;
    for(int i = 0 ; i  < penalized.size(); i++)
    {
@@ -303,8 +304,6 @@ void CMOEAD::Advanced_Crowding_Procedure(vector<int> &selected_pop, vector<CIndi
 //en el caso mono-objetivo para funciones multimodales
 void CMOEAD::replacement_phase()
 {
-
-
    if(D<=0) 
 	 {
 
@@ -312,7 +311,6 @@ void CMOEAD::replacement_phase()
 	 return;
 	 }
 
-	indexSeeds.clear();
    vector<CIndividual > Candidates;
    vector<int> selected_pop;
    
@@ -338,9 +336,6 @@ void CMOEAD::replacement_phase()
 	vector<bool> active(pops, true); //Los subgrupos que están activos
 	//Agregar al mejor individuo y penalizar a los que tengan una distancia mínima....
 	//Max numbee of seeds....
-	int countbestseeds=0;
-
-
 
 ///  //Extremes are seeds.....
 ///  for(int m = 0; m < nobj; m++)
@@ -370,19 +365,23 @@ void CMOEAD::replacement_phase()
 	   pair<double, int> data = pq.top();
 	   int index = data.second;
 	   pq.pop(); 
+
 	   if( !active[index/3]  ) continue;
+
 	   if(get_distance_near_point(selected_pop, index, Candidates)  < D)
+	   {
 			penalized.push_back(index);
+	
+
+	   }
 	   else
 		{
 		   selected_pop.push_back(index);
 		   weigth_indexes.push_back(index/3);
 		   indexSeeds.push_back(index/3);	
-			 if((index+2)%3 == 0) countbestseeds++;
 		   active[index/3]=false;
 		}
 	}	
-
 
 
 //
@@ -412,10 +411,6 @@ void CMOEAD::replacement_phase()
 //	}
 
 
-	//cout << curren_gen<< " " << selected_pop.size()<<" "<< countbestseeds <<endl;	
-
-
-
 
 
         for(int i = penalized.size()-1; i >= 0 ;  i--)
@@ -437,7 +432,6 @@ void CMOEAD::replacement_phase()
               v_distances[i] = min(v_distances[i], distance( Candidates[penalized[i]].x_var, Candidates[selected_pop[j]].x_var));
            }
         }
-
 //	if(selected_pop.size() < pops)
 //	Advanced_Crowding_Procedure(selected_pop, Candidates, penalized, active, weigth_indexes);
 	while(selected_pop.size() < pops)
@@ -461,7 +455,6 @@ void CMOEAD::replacement_phase()
                 }
         }
 
-	  //if((index+2)%3 ==0 )cout<< "important!!!!"<<endl; //continue;
 	  selected_pop.push_back(penalized[index]);
 	  weigth_indexes.push_back(penalized[index]/3);
 	  active[penalized[index]/3] = false;
@@ -490,8 +483,8 @@ void CMOEAD::init_population()
 
 	char filename[1024];
 	// Read weight vectors from a data file
-//	sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/optimized/vsd-moead-opt/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
-	sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/optimized/vsd-moead-opt/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
+//	sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
+	sprintf(filename,"ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
 	std::ifstream readf(filename);
 
     for(int i=0; i<pops; i++)
@@ -808,61 +801,33 @@ void CMOEAD::exec_emo(int run)
 	init_population();
     init_neighbourhood();
 	memory.resize(pops);
-	int gen = 5;
-    //sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/moead_based_diversity_hypersphere/POF/POF_MOEAD_%s_RUN%d_G%d.dat",strTestInstance,run, gen);
-    //sprintf(filename,"POF/POF_MOEAD_%s_RUN%d_G%d.dat",strTestInstance,run, gen);
-    //save_front(filename);
-
-//	max_gen = int(5.0*300000/pops);
-	// evolution
-	//	   sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/moead_based_diversity_hypersphere/POF/POF_MOEAD_%s_RUN%d_seed_%d.dat",strTestInstance,run, seed);
-
-
-	sprintf(filename1,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/optimized/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	sprintf(filename2,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/optimized/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	for(int gen=1; gen<=max_gen; gen++)
 	//while(nfes<300000)
 	{
-		update_parameterD();
 		curren_gen = gen;	
-		//if(gen%100==0) printf("gen = %d \n ", gen);
+		update_parameterD();
 		evol_population();
-
-		//gen++;
-		//printf("gen = %d  %d\n ", gen, nfes);	getchar();
-
 		if(gen%30==0)
 		{
 		    comp_utility();
 		}
-
-		//*
-		// save the final population - F space
-        //if(gen%max_gen==0)
-//		if(gen%250000==0)
-//		{
-//	       sprintf(filename,"POF/POF_MOEAD_%s_RUN%d_G%d.dat",strTestInstance,run,gen);
-//	       //save_front(filename);
-//		}
-		// save the final population - X space
-		
-		if(gen%2500==0)
-	//	if(gen%100==0)
+	
+//		if(gen%2500==0)
 		{	
-	save_pos(filename1);
-		save_front(filename2);
-	//	int o= 0;	
-	//		cout <<gen<< " " << D << " "<< DCN() << endl;
-		//	cout <<gen << " " << D <<endl;
+			
 		//   sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/VSD_MOEA_D_Cubic/backup_vsd_moead_crowding/POS/POS_MOEAD_%s_RUN%d_seed_%d_a_D02_obj_%d",strTestInstance,run, seed, nobj);
 		 //  sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/VSD_MOEA_D_Cubic/backup_vsd_moead_crowding/POF/POF_MOEAD_%s_RUN%d_seed_%d_a_D02_obj_%d",strTestInstance,run, seed, nobj);
 		   
 		}
 
-
 		//*/
 	}
-		
+		save_pos(filename1);
+		save_front(filename2);
 
 	//printf("%d generations used \n", gen);
 
@@ -875,8 +840,8 @@ void CMOEAD::load_parameter()
 {
 	char filename[1024];
 
-//  sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/VSD_MOEA_D_Cubic/backup_vsd_moead_crowding/ParameterSetting/%s.txt", strTestInstance);
-	sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/optimized/vsd-moead-opt/ParameterSetting/%s.txt", strTestInstance);
+	//sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/ParameterSetting/%s.txt", strTestInstance);
+	sprintf(filename,"ParameterSetting/%s.txt", strTestInstance);
 
 	char temp[1024];
 	std::ifstream readf(filename);
@@ -889,7 +854,6 @@ void CMOEAD::load_parameter()
 	readf>>limit;
 	readf>>prob;
 	readf>>rate;
-
 //	printf("\n Parameter Setting in MOEA/D \n");
 //	printf("\n pop %d, gen %d, niche %d, limit %d, prob %f, rate %f\n\n", pops, max_gen, niche, limit, prob, rate);
 
