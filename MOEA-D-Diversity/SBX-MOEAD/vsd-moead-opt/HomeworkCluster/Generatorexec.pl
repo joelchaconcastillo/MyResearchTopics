@@ -6,7 +6,7 @@ use Getopt::Long;
 my $file = "ExecutionFileDiversity";
 my $fout;
 open($fout, '>' ,$file);
-my $Path = "/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/optimized/vsd-moead-opt/";
+my $Path = "/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/";
 my $Instance=0;
 my $Sed=0;
 
