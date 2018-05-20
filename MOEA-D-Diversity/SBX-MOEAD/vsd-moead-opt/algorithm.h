@@ -483,8 +483,8 @@ void CMOEAD::init_population()
 
 	char filename[1024];
 	// Read weight vectors from a data file
-//	sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
-	sprintf(filename,"ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
+	sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
+	//sprintf(filename,"ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
 	std::ifstream readf(filename);
 
     for(int i=0; i<pops; i++)
@@ -801,10 +801,10 @@ void CMOEAD::exec_emo(int run)
 	init_population();
     init_neighbourhood();
 	memory.resize(pops);
-	//sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	for(int gen=1; gen<=max_gen; gen++)
 	//while(nfes<300000)
 	{
@@ -840,8 +840,8 @@ void CMOEAD::load_parameter()
 {
 	char filename[1024];
 
-	//sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/ParameterSetting/%s.txt", strTestInstance);
-	sprintf(filename,"ParameterSetting/%s.txt", strTestInstance);
+	sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/SBX-MOEAD/vsd-moead-opt/ParameterSetting/%s.txt", strTestInstance);
+	//sprintf(filename,"ParameterSetting/%s.txt", strTestInstance);
 
 	char temp[1024];
 	std::ifstream readf(filename);
