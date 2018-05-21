@@ -238,7 +238,7 @@ void real_sbx_hybrid(CIndividual &parent1, CIndividual &parent2, CIndividual &ch
     double alpha, beta, betaq;
 	double eta_c = etax;
 
-    double prob_var = 1.0 - (nfes/max_nfes);
+    double prob_var = 1.0 - ((double)nfes/max_nfes);
     prob_var = max(0.5, prob_var);
 
 
