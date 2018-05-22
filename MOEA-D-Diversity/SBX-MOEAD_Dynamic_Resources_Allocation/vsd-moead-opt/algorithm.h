@@ -588,17 +588,17 @@ void CMOEAD::comp_utility()
 	{
 		f1 = fitnessfunction(population[n].indiv.y_obj, population[n].namda);
 		f2 = fitnessfunction(population[n].saved.y_obj, population[n].namda);
-		delta = f2 - f1;
+		delta = max(0.0, f2 - f1);
 		
         if(delta>0.001)  utility[n] = 1.0;
 		else{
             uti        = 0.95*(1.0+delta/0.001)*utility[n];
 			utility[n] = uti<1.0?uti:1.0;
 		}
-	cout << utility[n]<<endl;
+//	cout << utility[n]<<endl;
         population[n].saved = population[n].indiv;
 	}
-getchar();
+//getchar();
 }
 
 void CMOEAD::update_problem(CIndividual &indiv, int &id, int &type)
@@ -815,16 +815,21 @@ void CMOEAD::exec_emo(int run)
 		curren_gen = gen;	
 		update_parameterD();
 		evol_population();
-		if(gen%  2 ==0)
+		//if(gen%  max_gen/10 ==0)
+		if(gen%  50 ==0)
 		{
 		    comp_utility();
 		}
 	
-//		if(gen%2500==0)
+		if(gen%500==0)
 		{	
 			
-		//   sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/VSD_MOEA_D_Cubic/backup_vsd_moead_crowding/POS/POS_MOEAD_%s_RUN%d_seed_%d_a_D02_obj_%d",strTestInstance,run, seed, nobj);
-		 //  sprintf(filename,"/home/joel.chacon/Chacon/Tesis/Novel_Special_Decomposition_Algorithms/VSD_MOEA_D_Cubic/backup_vsd_moead_crowding/POF/POF_MOEAD_%s_RUN%d_seed_%d_a_D02_obj_%d",strTestInstance,run, seed, nobj);
+//		   sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_a_D02_obj_%d",strTestInstance,run, seed, nobj);
+//		   sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_a_D02_obj_%d",strTestInstance,run, seed, nobj);
+		save_pos(filename1);
+		save_front(filename2);
+
+
 		   
 		}
 
