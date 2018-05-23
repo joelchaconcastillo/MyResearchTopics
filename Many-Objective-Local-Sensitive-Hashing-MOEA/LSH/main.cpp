@@ -113,6 +113,7 @@ void LSH::generateRandomVectors()
    uniform_vector_b.resize(number_hash_families);
    for(int i = 0; i < number_hash_families; i++)
    {
+	p_stable_distribution_a[i].resize(size_hash_familiy);
       for(int j = 0; j < size_hash_familiy; j++)
       {
 	   random_device rd;
@@ -121,11 +122,8 @@ void LSH::generateRandomVectors()
 	   uniform_real_distribution<double> rd_int(0, len_bucket); //This should be a continuous distribution...
 	   normal_distribution<double> distribution(0.0, 1.0); //Alternatively could work the box-muller method...
 	   vector<double> a;
-  	   for(int d = 0 ; d< dimension; d++)
-		a.push_back(distribution(gen));
-	   p_stable_distribution_a[i].push_back(a);
+  	   for(int d = 0 ; d< dimension; d++) p_stable_distribution_a[i][j].push_back(distribution(gen));
 	   uniform_vector_b[i].push_back(rd_int(gen));
-	   
       }
    }
    //Its transforms each id from the family in two hash maps
@@ -200,17 +198,19 @@ int main()
    {
 
 	for(int j =0 ; j < d; j++)
-     Points[i].push_back( rd_int(gen) );
+     Points[i].push_back(  (double)j/d + 1.0 );// rd_int(gen) );
    }
 //	Points[1][0] = 1000;
 //	Points[1][1] = 10;
 
-   LSH obj(Points, log(N), 2, 1.06, d, 5435); 
+//LSH::LSH(vector< vector< double > >  &Points, int number_hash_families, int size_hash_familiy, double len_bucket, int dimension, int map_size )
+   LSH obj(Points, log(N), 2, 100, d, 5435); 
 for(int i = 0; i < N; i++)
    {
     obj.updateHashTable(Points[i], i);
    }
-   Points[30][0] +=0.1;
+	for(int j =0 ; j < d; j++)
+   		Points[30][j] +=1.0;
    vector<int>ind = obj.searchNearestsPoints(Points[30]);
   
    for(int i =  0 ; i < ind.size(); i++)
