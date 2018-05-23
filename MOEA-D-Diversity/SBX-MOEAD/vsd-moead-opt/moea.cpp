@@ -52,6 +52,23 @@ void InitializeBounds(int nvar, char * Instance)
 		   vuppBound[i]=1.0;
 		}
 	}
+	if( !strcmp("RWP1", Instance))
+        {
+                for(int i = 0 ;  i < nvar; i++)
+                {
+                   vlowBound[i]=0.0;
+                   vuppBound[i]=1.0;
+                }
+        }
+        if( !strcmp("RWP2", Instance))
+        {
+                for(int i = 0 ;  i < nvar; i++)
+                {
+                   vlowBound[i]=1.0;
+                   vuppBound[i]=3.0;
+                }
+        }
+
 }
 int main(int argc, char *argv[])
 {

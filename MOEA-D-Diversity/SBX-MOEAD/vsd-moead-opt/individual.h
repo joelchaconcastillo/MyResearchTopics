@@ -83,6 +83,11 @@ void CIndividual::obj_eval()
 	if(!strcmp("DTLZ6", strTestInstance))  dtlz6(y_obj, x_var);
 	if(!strcmp("DTLZ7", strTestInstance))  dtlz7(y_obj, x_var);
 
+	//world problems...
+        if(!strcmp("RWP1", strTestInstance))  RWP1(y_obj, x_var);
+        if(!strcmp("RWP2", strTestInstance))  RWP2(y_obj, x_var);
+
+
 }
 
 

@@ -58,7 +58,8 @@ my @Conf =("UF1 30 2",
 "DTLZ4 12 3",
 "DTLZ5 12 3",
 "DTLZ6 12 3",
-"DTLZ7 22 3"
+"DTLZ7 22 3",
+"RWP2 5 3"
 );
 #foreach(@DI)
 {
