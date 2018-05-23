@@ -2,6 +2,7 @@
 #define _PROBLEM_H
 
 #include "cec09.h"
+#include "RealLife-MOPs.h"
 #include "wfg/WFG1/WFG1.h"
 #include "wfg/WFG2/WFG2.h"
 #include "wfg/WFG3/WFG3.h"
@@ -367,6 +368,14 @@ void dtlz7(std::vector<double> &F, std::vector<double> &X)
   h = numberOfObjectives_ - h ;
 
   F[numberOfObjectives_ - 1] = (1+g)*h ;	
+}
+void RWP1(std::vector<double> &F, std::vector<double> &X)
+{
+        RealLife_MOPs::INJ_4OBJ( &(*(X.begin())),  &(*(F.begin())));
+}
+void RWP2(std::vector<double> &F, std::vector<double> &X)
+{
+        RealLife_MOPs::CWD( &(*(X.begin())),  &(*(F.begin())));
 }
 
 #endif

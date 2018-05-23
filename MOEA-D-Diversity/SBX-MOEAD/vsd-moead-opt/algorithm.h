@@ -744,7 +744,9 @@ void CMOEAD::evol_population()
 		double rate2 = 0.5; //rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
 		//double rate2 = rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
 		//diff_evo_xoverB(population[c_sub].indiv,population[plist[0]].indiv,population[plist[1]].indiv, child, rate2);
-		real_sbx_hybrid(population[plist[0]].indiv,population[plist[1]].indiv, child1, child2, max_gen, curren_gen);
+
+		real_sbx_xoverA(population[plist[0]].indiv, population[plist[1]].indiv, child1, child2);
+		//real_sbx_hybrid(population[plist[0]].indiv,population[plist[1]].indiv, child1, child2, max_gen, curren_gen);
 		
 		//int num= int(indexSeeds.size()*rnd_uni(&rnd_uni_init));
 		//diff_evo_xoverD( population[plist[0]].indiv,population[plist[0]].indiv,population[plist[1]].indiv, population[indexSeeds[num]].indiv, child, rate2);
@@ -854,6 +856,7 @@ void CMOEAD::load_parameter()
 	readf>>limit;
 	readf>>prob;
 	readf>>rate;
+	niche=10;
 //	printf("\n Parameter Setting in MOEA/D \n");
 //	printf("\n pop %d, gen %d, niche %d, limit %d, prob %f, rate %f\n\n", pops, max_gen, niche, limit, prob, rate);
 

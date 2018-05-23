@@ -49,7 +49,6 @@ void realmutation(CIndividual &ind, double rate)
 
 
 /* Routine for real variable SBX crossover */
-template <class T>
 void real_sbx_xoverA(CIndividual &parent1, CIndividual &parent2, CIndividual &child1, CIndividual &child2)
 {
     double rand;
