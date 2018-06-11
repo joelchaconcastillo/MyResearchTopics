@@ -2,7 +2,8 @@
 
 using namespace std;
 
-const int DIM = 3;
+const int DIM = 2;
+const int Scale = 10;
 struct Point {
 	double x[DIM];
 };
@@ -31,7 +32,7 @@ int main(){
 		mod = sqrt(mod);
 		for (int j = 0; j < DIM; j++){
 			p.x[j] /= mod;
-	//		p.x[j] *= (j+1.0)*10.0;
+			p.x[j] *= (j+1.0)*Scale;
 		}
 		points.push_back(p);
 		allPoints.push_back(p);
