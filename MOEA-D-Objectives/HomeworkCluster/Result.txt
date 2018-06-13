@@ -1,0 +1,6160 @@
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG3, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG2, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG1, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG5, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG4, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG6, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ1, 7 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ2, 12 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG7, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ3, 12 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ4, 12 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ5, 12 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ6, 12 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: DTLZ7, 22 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 2-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 15-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 34-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 27-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 31-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 9-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 20-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 23-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 13-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 3-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 8-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 12-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 16-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG8, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 35-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 28-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 22-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 26-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 17-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 18-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 25-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 32-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 33-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 29-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 4-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 30-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 21-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 24-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 7-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 6-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 1-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 11-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 14-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 5-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 10-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
+Data:  ::	 
+ -- Instance: WFG9, 24 variables 3 objectives 
+
+
+ -- 19-th run  -- 
+
+ Parameter Setting in MOEA/D 
+
+ pop 100, gen 250000, niche 10, limit 6, prob 0.900000, rate 0.500000
+
+ 
