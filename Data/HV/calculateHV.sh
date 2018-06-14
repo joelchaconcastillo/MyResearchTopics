@@ -1,4 +1,4 @@
-algname=(GDE3 MOEA_D_DE MOEA_D_SBX NSGAII_SBX Proposal_DE Proposal_SBX)
+algname=(GDE3 MOEA_D_DE MOEA_D_SBX NSGAII_SBX Proposal_SBX Proposal_DE)
 ##Calculating the HV considering plus 10% for each objective
    cont=0
 for alg in GDE3/POF MOEA_D/DE/POF MOEA_D/SBX/POF NSGAII/SBX/POF Proposal/SBX/POF Proposal/DE/POF
