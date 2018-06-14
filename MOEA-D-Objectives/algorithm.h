@@ -33,6 +33,7 @@ public:
 
 	void tour_selection(int depth, vector<int> &selected);
 	void comp_utility();
+	double regularization_nearest(int k, CIndividual &ind);
 
     vector <CSubproblem> population;
 	vector <double>      utility;
@@ -71,7 +72,8 @@ void CMOEAD::init_population()
 
 	char filename[1024];
 	// Read weight vectors from a data file
-	sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
+	//sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
+	sprintf(filename,"ParameterSetting/Weight/W%dD_%d.dat", nobj, pops);
 	std::ifstream readf(filename);
 
     for(int i=0; i<pops; i++)
@@ -204,6 +206,14 @@ void CMOEAD::update_problem(CIndividual &indiv, int &id, int &type)
 		double f1, f2;
 		f1 = fitnessfunction(population[k].indiv.y_obj, population[k].namda);
 		f2 = fitnessfunction(indiv.y_obj, population[k].namda);
+
+   		double factor = 1.0-((double)curren_gen)/(max_gen);
+		factor=max(factor,0.0);
+		//Compute nearest objective vector...
+	        f1 = (1.0-factor)*f1 - factor*regularization_nearest(k,  population[k].indiv);
+	        f2 = (1.0-factor)*f2 - factor*regularization_nearest(k,  indiv);
+		//f1 = -10.0*regularization_nearest(k,  population[k].indiv);
+	        //f2 = -10.0*regularization_nearest(k,  indiv);
 		if(f2<f1)
 		{
 			population[k].indiv = indiv;
@@ -217,7 +227,18 @@ void CMOEAD::update_problem(CIndividual &indiv, int &id, int &type)
 	}
 	perm.clear();
 }
-
+//Compute the nearest individual discarding the k-index
+double CMOEAD::regularization_nearest(int k, CIndividual &ind)
+{
+    double maxd = INFINITY;
+    for(int i =  0 ; i  < population.size(); i++)
+   {
+	if(k==i) continue;
+	double dist = dist_vector(population[i].indiv.y_obj, ind.y_obj);
+	maxd = min(dist, maxd);
+   }
+   return maxd;
+}
 void CMOEAD::update_reference(CIndividual &ind)
 {
 	//ind: child solution
@@ -337,18 +358,32 @@ void CMOEAD::exec_emo(int run)
 
 	int gen = 5;
 
-    sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POF/POF_MOEAD_%s_RUN%d_G%d_%d.dat",strTestInstance,run, gen, nobj);
+    //sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POF/POF_MOEAD_%s_RUN%d_G%d_%d.dat",strTestInstance,run, gen, nobj);
+
+    sprintf(filename,"POF/POF_MOEAD_%s_RUN%d_G%d_%d.dat",strTestInstance,run, gen, nobj);
 
 	// evolution
 	for(int gen=2; gen<=max_gen; gen++)
 	{
 		curren_gen = gen;
 		evol_population();
+		if(gen%1000 == 0) cout << "Generation.. "<<gen <<endl;
+		if(gen%100 == 0)
+		{
+		   sprintf(filename,"POS/POS_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   save_pos(filename);
+		   //sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POF/POF_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   sprintf(filename,"POF/POF_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   save_front(filename);
+
+		}
 
 	}
-		   sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POS/POS_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   //sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POS/POS_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   sprintf(filename,"POS/POS_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
 		   save_pos(filename);
-		   sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POF/POF_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   //sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/POF/POF_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
+		   sprintf(filename,"POF/POF_MOEAD_%s_RUN%d_seed_%d_%d.dat",strTestInstance,run, seed, nobj);
 		   save_front(filename);
 
 	//printf("%d generations used \n", gen);
@@ -362,7 +397,7 @@ void CMOEAD::load_parameter()
 {
 	char filename[1024];
 
-	sprintf(filename,"/home/joel.chacon/Chacon/Tesis/MOEA-D_Diversity/Code_CEC09/moead_based_diversity_DE/ParameterSetting/%s.txt", strTestInstance);
+	sprintf(filename,"ParameterSetting/%s.txt", strTestInstance);
 
 	char temp[1024];
 	std::ifstream readf(filename);
@@ -375,6 +410,7 @@ void CMOEAD::load_parameter()
 	readf>>limit;
 	readf>>prob;
 	readf>>rate;
+	max_gen=250000;
 	niche=10;//##############TEMPORAL!!!!!!!!!!!
 	printf("\n Parameter Setting in MOEA/D \n");
 	printf("\n pop %d, gen %d, niche %d, limit %d, prob %f, rate %f\n\n", pops, max_gen, niche, limit, prob, rate);
