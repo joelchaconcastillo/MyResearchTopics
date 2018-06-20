@@ -13,6 +13,9 @@ double getDistance(Point &p, Point &ref){
 	for (int i = 0; i < DIM; i++){
 		if (p.x[i] < ref.x[i]){
 			d += (p.x[i] - ref.x[i]) * (p.x[i] - ref.x[i]);
+		}else
+		{
+			d += 0.1*(ref.x[i]-p.x[i]) * (ref.x[i] - p.x[i]);
 		}
 	}
 	return sqrt(d);
@@ -32,7 +35,7 @@ int main(){
 		mod = sqrt(mod);
 		for (int j = 0; j < DIM; j++){
 			p.x[j] /= mod;
-			p.x[j] *= (j+1.0)*Scale;
+		//	p.x[j] *= (j+1.0)*Scale;
 		}
 		points.push_back(p);
 		allPoints.push_back(p);
