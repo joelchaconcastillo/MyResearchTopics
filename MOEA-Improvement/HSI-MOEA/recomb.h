@@ -354,7 +354,7 @@ void diff_evo_xoverB(CIndividual &ind0, CIndividual &ind1, CIndividual &ind2, CI
 	int idx_rnd = int(rnd_uni(&rnd_uni_init)*nvar);
 
 
-    double CR   =  (rnd_uni(&rnd_uni_init)<0.5)?0.2:1.0;
+    double CR   = 0.9;// (rnd_uni(&rnd_uni_init)<0.5)?0.2:1.0;
 	for(int n=0;n<nvar;n++)
 	{
 	  /*Selected Two Parents*/

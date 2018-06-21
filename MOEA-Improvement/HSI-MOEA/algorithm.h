@@ -3,6 +3,7 @@
 
 #include <queue>
 #include <iomanip>
+#include <cfloat>
 #include "global.h"
 #include "recomb.h"
 #include "common.h"
@@ -28,9 +29,10 @@ public:
 	void save_pos(char savefilename[1024]);
 
 	double distance( vector<double> &a, vector<double> &b);
+	double distance_improvement( vector<double> &reference, vector<double> &current);
 	vector <CSubproblem> population;
-	vector<CIndividual> child_pop;	// memory solutions
-
+	vector<CSubproblem> child_pop;	// memory solutions
+        void improvement_selection(vector<CSubproblem> &offspring, vector<CSubproblem> &parents);
 	void operator=(const MOEA &moea);
 
 public:
@@ -51,6 +53,20 @@ MOEA::MOEA()
 
 MOEA::~MOEA()
 {
+
+}
+
+double MOEA::distance_improvement( vector<double> &reference, vector<double> &current)
+{
+	double dist = 0 ;
+   for(int i = 0; i < reference.size(); i++)
+	{
+	   if(current[i] < reference[i])
+	      dist += (current[i] - reference[i])*(current[i] - reference[i]);
+	   else
+	      dist += 0.001*(reference[i] - current[i])*(reference[i] - current[i]);
+	}
+   return sqrt(dist);
 
 }
 double MOEA::distance( vector<double> &a, vector<double> &b)
@@ -97,7 +113,7 @@ void MOEA::init_population()
 
 		// Save in the population
 		population.push_back(sub);
-		child_pop.push_back(sub.indiv);
+		child_pop.push_back(sub);
 		nfes++;
 	}
 //	readf.close( );
@@ -130,14 +146,14 @@ void MOEA::evol_population()
 	{
 
 		int c_sub = order[sub];    // random order
-		//  printf("%d ", c_sub);
 
 		int type;
-		double rnd = rnd_uni(&rnd_uni_init);
-
-		// mating selection based on probability
-		if(rnd<prob)     type = 1;   // from neighborhood
-		else             type = 2;   // from population
+		double rnd1 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
+		double rnd2 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
+		while(rnd2 !=rnd1)
+		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
+		
+	
 
 		// select the indexes of mating parents
 		vector<int> plist;
@@ -145,7 +161,7 @@ void MOEA::evol_population()
 		CIndividual child1, child2;
 		double rate2 = 0.5; //rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
 		//double rate2 = rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
-		diff_evo_xoverB(population[c_sub].indiv,population[plist[0]].indiv,population[plist[1]].indiv, child1, rate2);
+		diff_evo_xoverB(population[c_sub].indiv,population[rnd1].indiv,population[rnd2].indiv, child1, rate2);
 
 		//real_sbx_xoverA(population[plist[0]].indiv, population[plist[1]].indiv, child1, child2);
 		//real_sbx_hybrid(population[plist[0]].indiv,population[plist[1]].indiv, child1, child2, max_gen, curren_gen);
@@ -166,13 +182,66 @@ void MOEA::evol_population()
 		update_reference(child1);
 	//	update_reference(child2);
 
-		//child_pop[c_sub] = child;
+		child_pop[c_sub].indiv = child1;
 		nfes++;
 	}
-
+	improvement_selection(child_pop, population);
 }
 
+void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubproblem> &parents)
+{
+   vector< CIndividual> reference, candidates(offspring.size() + parents.size());
 
+   for(int i = 0 ; i < offspring.size(); i++) candidates.push_back(offspring[i].indiv);
+   for(int i = 0 ; i < parents.size(); i++) candidates.push_back(parents[i].indiv);
+
+
+   vector<double> sumfit (candidates.size(), 0.0);
+   //select the m reference individuals..
+   for(int i = 0 ; i < candidates.size(); i++)
+	for(int j = 0; j < nobj; j++) sumfit[i]+= candidates[i].y_obj[j];
+	
+	for(int j = 0; j < nobj; j++)
+	{
+	  double minf=DBL_MAX;
+	  int indexb=-1;
+   	  for(int i = 0 ; i < candidates.size(); i++)
+	  {
+	   double extremefitness = abs(candidates[i].y_obj[j] - idealpoint[j]) + 0.001*sumfit[i];
+//	   double extremefitness = abs(candidates[i].y_obj[j] );// + 0.001*sumfit[i];
+	   if( extremefitness < minf )
+	   {
+		minf = extremefitness;
+		indexb = i;
+	   }
+	  }
+	    reference.push_back(candidates[indexb]);
+	    iter_swap(candidates.begin()+indexb, candidates.end()-1);
+	    candidates.pop_back();
+	}
+  while(reference.size() < pops) 
+  {
+	double maxi = DBL_MIN;
+	int indexi=-1;
+	for(int i = 0; i < candidates.size(); i++)
+	{
+	   double mini = DBL_MAX;
+	   for(int j = 0; j < reference.size(); j++)
+		mini = min(mini, distance_improvement(reference[j].y_obj, candidates[i].y_obj));
+		//mini = min(mini, distance(reference[j].y_obj, candidates[i].y_obj));
+	  if( maxi < mini  ) 
+	   {
+		indexi = i;
+		maxi = mini;
+	    }
+	}
+	reference.push_back(candidates[indexi]);
+	iter_swap(candidates.begin()+indexi, candidates.end()-1);
+	candidates.pop_back();
+  }
+   for(int i = 0; i < parents.size(); i++)   
+   parents[i].indiv = reference[i]; 
+}
 void MOEA::exec_emo(int run)
 {
     char filename1[5024];
@@ -185,13 +254,14 @@ void MOEA::exec_emo(int run)
 	nfes      = 0;
 	//indexSeeds.push_back(0);
 	init_population();
-	sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	//sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	//sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	for(int gen=1; gen<=max_gen; gen++)
 	//while(nfes<300000)
 	{
+	   cout << gen <<endl;
 		curren_gen = gen;	
 		evol_population();
 	}
@@ -248,7 +318,7 @@ void MOEA::save_front(char saveFilename[1024])
 		for(int k=0;k<nobj;k++)
 			fout<<population[n].indiv.y_obj[k]<<"  ";
 	for(int k=0;k<nobj;k++)
-			fout<<child_pop[n].y_obj[k]<<"  ";
+			fout<<child_pop[n].indiv.y_obj[k]<<"  ";
 		fout<<"\n";
 	}
 	fout.close();
