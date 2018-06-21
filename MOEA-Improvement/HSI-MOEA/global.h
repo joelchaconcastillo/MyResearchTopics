@@ -36,7 +36,7 @@ long    rnd_uni_init;
 
 //------------- Parameters in MOEA/D -------------------------
 
-vector <double> idealpoint;
+vector <double> idealpoint, nadirpoint;
 double          scale[100];  
 
 

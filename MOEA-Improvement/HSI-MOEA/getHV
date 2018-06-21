@@ -1,0 +1,1 @@
+tail -100 POF/POF_MOEAD_DTLZ7_RUN1_seed_24_nobj_8.dat_bounded| awk '{print " "" "" "" "" "" "" "}' | ../../Data/HV/hv -r "21 21 21 21 21 21 21 21" 

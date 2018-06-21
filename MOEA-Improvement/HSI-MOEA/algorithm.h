@@ -58,15 +58,28 @@ MOEA::~MOEA()
 
 double MOEA::distance_improvement( vector<double> &reference, vector<double> &current)
 {
-	double dist = 0 ;
+	double dist1 = 0.0, dist2=0.0 ;
+	double teta = 1.0 - ((4.0*curren_gen)/max_gen);
+	teta = max(0.0,teta );
+   for(int i = 0; i < reference.size(); i++)
+	{
+		double current_normalized = (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
+		double reference_normalized = (reference[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
+	   if(current_normalized < reference_normalized)
+	      dist1 += (current_normalized - reference_normalized)*(current_normalized - reference_normalized);
+	   else
+///	      dist1 -= 0.01*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
+	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
+	}
    for(int i = 0; i < reference.size(); i++)
 	{
 	   if(current[i] < reference[i])
-	      dist += (current[i] - reference[i])*(current[i] - reference[i]);
-//	   else
-//	      dist += 0.1*(reference[i] - current[i])*(reference[i] - current[i]);
+	      dist2 += (current[i] - reference[i])*(current[i] - reference[i]);
+	   else
+	      dist2 += (reference[i] - current[i])*(reference[i] - current[i]);
 	}
-   return sqrt(dist);
+   return sqrt(dist1) ;
+   //return sqrt(dist1) - 0.1*sqrt(dist2);
 
 }
 double MOEA::distance( vector<double> &a, vector<double> &b)
@@ -83,6 +96,7 @@ void MOEA::init_population()
 {
 
 	idealpoint = vector<double>(nobj, 1.0e+30);
+	nadirpoint= vector<double>(nobj, -1.0e+30);
 
 	char filename[1024];
 	// Read weight vectors from a data file
@@ -141,9 +155,9 @@ void MOEA::update_reference(CIndividual &ind)
 	for(int n=0; n<nobj; n++)
 	{
 		if(ind.y_obj[n]<idealpoint[n])
-		{
 			idealpoint[n] = ind.y_obj[n];
-		}
+		if(ind.y_obj[n]>idealpoint[n])
+			nadirpoint[n] = ind.y_obj[n];
 	}
 }
 void MOEA::evol_population()
@@ -154,7 +168,7 @@ void MOEA::evol_population()
 	for(int i = 0; i < pops; i++) order.push_back(i);
 	
 
-    for(int sub=0; sub<order.size(); sub++)
+    for(int sub=0; sub<order.size(); sub+=2)
 	{
 
 		int c_sub = order[sub];    // random order
@@ -162,10 +176,10 @@ void MOEA::evol_population()
 		int type;
 		double rnd1 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
 		double rnd2 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
-		while( rnd1==c_sub)
-		  rnd1 = int(rnd_uni(&rnd_uni_init)*pops);
-		while(rnd2 ==rnd1 || rnd2==c_sub)
-		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
+//		while( rnd1==c_sub)
+//		  rnd1 = int(rnd_uni(&rnd_uni_init)*pops);
+//		while(rnd2 ==rnd1 || rnd2==c_sub)
+//		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
 		
 	
 
@@ -173,33 +187,34 @@ void MOEA::evol_population()
 		CIndividual child1, child2;
 		double rate2 = 0.5; //rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
 		//double rate2 = rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
-		diff_evo_xoverB(population[c_sub].indiv,population[rnd1].indiv,population[rnd2].indiv, child1, rate2);
+//		diff_evo_xoverB(population[c_sub].indiv,population[rnd1].indiv,population[rnd2].indiv, child1, rate2);
 
-//		real_sbx_xoverA(population[c_sub].indiv, population[rnd1].indiv, child1, child1);
+		real_sbx_xoverA(population[rnd2].indiv, population[rnd1].indiv, child1, child2);
 		//real_sbx_hybrid(population[plist[0]].indiv,population[plist[1]].indiv, child1, child2, max_gen, curren_gen);
 		
 
 		// apply polynomial mutation
-//		realmutation(child1, 1.0/nvar);
-	//	realmutation(child2, 1.0/nvar);
+		realmutation(child1, 1.0/nvar);
+		realmutation(child2, 1.0/nvar);
 		
 		// repair method
 		//repait
 		// evaluate the child solution
 		child1.obj_eval();
-	//	child2.obj_eval();
+		child2.obj_eval();
 
 		// update the reference points and other solutions in the neighborhood or the whole population
 		update_reference(child1);
-	//	update_reference(child2);
+		update_reference(child2);
 		child_pop[c_sub].indiv = child1;
+		child_pop[c_sub+1].indiv = child2;
 	}
 	improvement_selection(child_pop, population);
 }
 
 void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubproblem> &parents)
 {
-   vector< CIndividual> reference, candidates(offspring.size() + parents.size());
+   vector< CIndividual> reference, candidates;//(offspring.size() + parents.size());
 
    for(int i = 0 ; i < offspring.size(); i++)
    {
@@ -215,7 +230,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
    //select the m reference individuals..
    for(int i = 0 ; i < candidates.size(); i++)
 	for(int j = 0; j < nobj; j++)
-	   sumfit[i]+= candidates[i].y_obj[j];
+	   sumfit[i]+= (candidates[i].y_obj[j]-idealpoint[j])/(nadirpoint[j] - idealpoint[j]);
 	
 	for(int j = 0; j < nobj; j++)
 	{
@@ -223,9 +238,9 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	  int indexb=-1;
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
-	   //double extremefitness = fabs(candidates[i].y_obj[j] - idealpoint[j]) + 0.001*sumfit[i];
+	   double extremefitness = fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]) + 0.001*sumfit[i];
 	   //double extremefitness = fabs(candidates[i].y_obj[j]) + 0.001*sumfit[i];
-	   double extremefitness = sumfit[i];
+	  // double extremefitness =  ;//sumfit[i];
 	   if( extremefitness < minf )
 	   {
 		minf = extremefitness;
@@ -238,17 +253,35 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	    iter_swap(candidates.begin()+indexb, candidates.end()-1);
 	    candidates.pop_back();
 	}
+	if(curren_gen %1000 == 0 )
+	{
+	for(int i = 0; i < nobj; i++)
+	{
+	   for(int j = 0; j < nobj; j++)
+	   {
+		cout << reference[i].y_obj[j]<<" ";
+	   }
+		cout << endl;
+	}
+	}
+
   while(reference.size() < pops) 
   {
 	double maxi =-INFINITY;// DBL_MIN;
 	int indexi=-1;
 	for(int i = 0; i < candidates.size(); i++)
 	{
+	priority_queue< double  > pq;
 	   double mini = INFINITY;
 	   for(int j = 0; j < reference.size(); j++)
-		mini = min(mini, distance_improvement(reference[j].y_obj, candidates[i].y_obj));
+		pq.push( - distance_improvement(reference[j].y_obj, candidates[i].y_obj));
+		//mini = min(mini, distance_improvement(reference[j].y_obj, candidates[i].y_obj));
 		//mini = min(mini, distance(reference[j].y_obj, candidates[i].y_obj));
 		//cout<< mini<<endl;
+		mini=0.0;
+//		for(int m = 0; m< nobj;m++)
+//		while(!pq.empty())
+		{mini += -pq.top(); pq.pop();}
 	  if( maxi < mini  ) 
 	   {
 		indexi = i;
@@ -289,8 +322,11 @@ void MOEA::exec_emo(int run)
 	   cout << gen <<endl;
 		curren_gen = gen;	
 		evol_population();
+//		if( gen%1000 ==0)
+		{
 		save_pos(filename1);
 		save_front(filename2);
+		}
 	//getchar();
 	}
 
@@ -321,7 +357,7 @@ void MOEA::load_parameter()
 //	readf>>rate;
 //	niche=10;
 pops=100;
-max_gen=50000/100;
+max_gen=416;///100;
 prob=0.9;
 rate=0.8;
 //	printf("\n Parameter Setting in MOEA/D \n");
