@@ -36,11 +36,11 @@ long    rnd_uni_init;
 
 //------------- Parameters in MOEA/D -------------------------
 
-vector <double> idealpoint, nadirpoint;
+vector <double> idealpoint, nadirpoint, currentidealpoint, currentnadirpoint;
 double          scale[100];  
 
 
-int		etax    = 20, 	etam    = 50;   // distribution indexes of crossover and mutation
+int		etax    = 20, 	etam    = 20;   // distribution indexes of crossover and mutation
 
 double  realx,  realm,  realb = 0.9;    // crossover, mutation, selection probabilities
 

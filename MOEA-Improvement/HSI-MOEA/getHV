@@ -1,1 +1,1 @@
-tail -100 POF/POF_MOEAD_DTLZ7_RUN1_seed_24_nobj_8.dat_bounded| awk '{print " "" "" "" "" "" "" "}' | ../../Data/HV/hv -r "21 21 21 21 21 21 21 21" 
+tail -100 POF/POF_MOEAD_DTLZ7_RUN1_seed_24_nobj_8.dat_bounded| awk '{print $1" "$2" "$3" "$4" "$5" "$6" "$7" "$8}' | ../../Data/HV/hv -r "21 21 21 21 21 21 21 21" 
