@@ -69,7 +69,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 	   if(current_normalized < reference_normalized)
 	      dist1 += (current_normalized - reference_normalized)*(current_normalized - reference_normalized);
 //	   else
-	      dist1 += 0.001*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
+//	      dist1 += 0.001*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 //	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 //	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	}
@@ -91,9 +91,9 @@ void MOEA::init_population()
 {
 
 	idealpoint = vector<double>(nobj, 1.0e+30);
-	nadirpoint= vector<double>(nobj, -1.0e+30);
+	nadirpoint= vector<double>(nobj, 0.0);
 	currentidealpoint = vector<double>(nobj, 1.0e+30);
-	currentnadirpoint= vector<double>(nobj, -1.0e+30);
+	currentnadirpoint= vector<double>(nobj, 0.0);
 
 
 	char filename[1024];
@@ -142,7 +142,8 @@ void MOEA::init_population()
 	}
 	curren_gen=1.0;
 	idealpoint = currentidealpoint;
-	nadirpoint = currentnadirpoint;
+	for(int n=0; n<nobj; n++)
+	nadirpoint[n] = currentnadirpoint[n]/pops;
 //	update_reference_vectors();
 //	readf.close( );
 }
@@ -158,8 +159,8 @@ void MOEA::update_reference(CIndividual &ind)
 	{
 		if(ind.y_obj[n]<currentidealpoint[n])
 			currentidealpoint[n] =ind.y_obj[n];
-		if(ind.y_obj[n]>currentidealpoint[n])
-			currentnadirpoint[n] = ind.y_obj[n];
+	//	if(ind.y_obj[n]>currentnadirpoint[n])
+			currentnadirpoint[n] += ind.y_obj[n];
 	}
 //	nadirpoint[nobj-1] = 2*nobj+1;
 	
@@ -217,18 +218,6 @@ void MOEA::evol_population()
 	}
 	improvement_selection(child_pop, population);
 	update_reference_vectors();
-//if(curren_gen %1000 == 0 )
-	{
-		cout << distance(idealpoint, nadirpoint)<<endl;
-//	for(int i = 0; i < nobj; i++)
-//	{
-//	   for(int j = 0; j < nobj; j++)
-//	   {
-//		cout << reference[i].y_obj[j]<<" ";
-//	   }
-//		cout << endl;
-//	}
-	}
 }
 void MOEA::update_reference_vectors()
 {
@@ -240,12 +229,20 @@ void MOEA::update_reference_vectors()
 	idealpoint[m] += (1.0/w)*(currentidealpoint[m]-idealpoint[m]);
 	//idealpoint[m] = 0.5*(idealpoint[m] + currentidealpoint[m]);
 
-	nadirpoint[m] += (1.0/w)*(currentnadirpoint[m]-nadirpoint[m]);
-//	nadirpoint[m] = 0.5*(nadirpoint[m] + currentnadirpoint[m]);
+	nadirpoint[m] += (1.0/(max_gen))*(currentnadirpoint[m]/pops-nadirpoint[m]);
+	nadirpoint[m] = 0.5*(nadirpoint[m] + currentnadirpoint[m]/pops);
+//	nadirpoint[m] = currentidealpoint[m]/pops;
    }
+   
+   idealpoint = currentidealpoint;
+//   nadirpoint = currentnadirpoint;
+//		cout << distance(idealpoint, nadirpoint)<<endl;
+	for(int i = 0; i < nobj; i++)
+	   cout << idealpoint[i]<<" ";
+	for(int i = 0; i < nobj; i++)
+	   cout << nadirpoint[i]<<" ";
+	cout << endl;
 
- //  idealpoint = currentidealpoint;
- //  nadirpoint = currentnadirpoint;
 }
 void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubproblem> &parents)
 {
@@ -357,7 +354,7 @@ void MOEA::exec_emo(int run)
 	while(nfes < max_nfes )
 	{
 //	   cout << gen <<endl;
-	   cout <<nfes<<endl;
+//	   cout <<nfes<<endl;
 		curren_gen = gen;	
 		evol_population();
 //		if( gen%1000 ==0)
