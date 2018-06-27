@@ -60,21 +60,22 @@ MOEA::~MOEA()
 double MOEA::distance_improvement( vector<double> &reference, vector<double> &current)
 {
 	double dist1 = 0.0, dist2=0.0 ;
-	double teta = 1.0 - ((4.0*curren_gen)/max_gen);
+	double teta = 1.0 - ((curren_gen)/max_gen);
 	teta = max(0.0,teta );
    for(int i = 0; i < reference.size(); i++)
 	{
-		double current_normalized = (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
-		double reference_normalized = (reference[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
+		double current_normalized = current[i];// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
+		double reference_normalized = reference[i];// (reference[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 	   if(current_normalized < reference_normalized)
 	      dist1 += (current_normalized - reference_normalized)*(current_normalized - reference_normalized);
 //	   else
-//	      dist1 += 0.001*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
+	//      dist1 +=0.00001*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 //	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
-//	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
+	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	}
-   return sqrt(dist1) ;
-  // return sqrt(dist1) + teta*sqrt(dist2);
+//   return (dist1) ;
+   //return sqrt(dist1) ;
+   return (sqrt(dist1))?sqrt(dist1):0.0001*sqrt(dist2);
 
 }
 double MOEA::distance( vector<double> &a, vector<double> &b)
@@ -159,8 +160,8 @@ void MOEA::update_reference(CIndividual &ind)
 	{
 		if(ind.y_obj[n]<currentidealpoint[n])
 			currentidealpoint[n] =ind.y_obj[n];
-	//	if(ind.y_obj[n]>currentnadirpoint[n])
-			currentnadirpoint[n] += ind.y_obj[n];
+		if(ind.y_obj[n]>currentnadirpoint[n])
+			currentnadirpoint[n] = ind.y_obj[n];
 	}
 //	nadirpoint[nobj-1] = 2*nobj+1;
 	
@@ -230,12 +231,12 @@ void MOEA::update_reference_vectors()
 	//idealpoint[m] = 0.5*(idealpoint[m] + currentidealpoint[m]);
 
 	nadirpoint[m] += (1.0/(max_gen))*(currentnadirpoint[m]/pops-nadirpoint[m]);
-	nadirpoint[m] =10;// 0.5*(nadirpoint[m] + currentnadirpoint[m]/pops);
+//	nadirpoint[m] =10;// 0.5*(nadirpoint[m] + currentnadirpoint[m]/pops);
 //	nadirpoint[m] = currentidealpoint[m]/pops;
    }
-  nadirpoint[nobj-1]=70; 
+ // nadirpoint[nobj-1]=70; 
    idealpoint = currentidealpoint;
-//   nadirpoint = currentnadirpoint;
+   nadirpoint = currentnadirpoint;
 //		cout << distance(idealpoint, nadirpoint)<<endl;
 	for(int i = 0; i < nobj; i++)
 	   cout << idealpoint[i]<<" ";
@@ -270,8 +271,10 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	  int indexb=-1;
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
-	   double extremefitness = fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
-	//   double extremefitness = candidates[i].y_obj[j];// + 0.001*sumfit[i];
+	   double extremefitness = candidates[i].y_obj[j];// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
+//	   double extremefitness = sumfit[i];
+//	   double extremefitness = -INFINITY;
+//	for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
 	   //double extremefitness = fabs(candidates[i].y_obj[j]) + 0.001*sumfit[i];
 	  // double extremefitness =  ;//sumfit[i];
 	   if( extremefitness < minf )
@@ -312,7 +315,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 		//mini = min(mini, distance(reference[j].y_obj, candidates[i].y_obj));
 		//cout<< mini<<endl;
 		mini=0.0;
-//		for(int m = 0; m< nobj;m++)
+		for(int m = 0; m< nobj;m++)
 //		while(!pq.empty())
 		{mini += -pq.top(); pq.pop();}
 	  if( maxi < mini  ) 
