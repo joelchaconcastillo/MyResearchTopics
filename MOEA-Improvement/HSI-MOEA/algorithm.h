@@ -230,10 +230,10 @@ void MOEA::update_reference_vectors()
 	//idealpoint[m] = 0.5*(idealpoint[m] + currentidealpoint[m]);
 
 	nadirpoint[m] += (1.0/(max_gen))*(currentnadirpoint[m]/pops-nadirpoint[m]);
-	nadirpoint[m] = 0.5*(nadirpoint[m] + currentnadirpoint[m]/pops);
+	nadirpoint[m] =10;// 0.5*(nadirpoint[m] + currentnadirpoint[m]/pops);
 //	nadirpoint[m] = currentidealpoint[m]/pops;
    }
-   
+  nadirpoint[nobj-1]=70; 
    idealpoint = currentidealpoint;
 //   nadirpoint = currentnadirpoint;
 //		cout << distance(idealpoint, nadirpoint)<<endl;
