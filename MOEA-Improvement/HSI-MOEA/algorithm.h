@@ -75,7 +75,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 	}
 //   return (dist1) ;
    //return sqrt(dist1) ;
-   return (sqrt(dist1))?sqrt(dist1):0.0001*sqrt(dist2);
+   return (sqrt(dist1))?sqrt(dist1):0.0;//-sqrt(dist2);
 
 }
 double MOEA::distance( vector<double> &a, vector<double> &b)
@@ -181,13 +181,19 @@ void MOEA::evol_population()
 		int c_sub = order[sub];    // random order
 
 		int type;
+	
 		double rnd1 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
 		double rnd2 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
-///		while( rnd1==c_sub)
+
+		while(rnd2 ==rnd1)
+		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
+		if(sub<60) {rnd1=0;  }	else rnd1=1;
+
+//		while( rnd1==c_sub)
 ///		  rnd1 = int(rnd_uni(&rnd_uni_init)*pops);
 ///		while(rnd2 ==rnd1 || rnd2==c_sub)
 ///		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
-		
+				
 	
 
 		// produce a child solution
@@ -263,7 +269,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
    //select the m reference individuals..
    for(int i = 0 ; i < candidates.size(); i++)
 	for(int j = 0; j < nobj; j++)
-	   sumfit[i]+= (candidates[i].y_obj[j]-idealpoint[j])/(nadirpoint[j] - idealpoint[j]);
+	   sumfit[i]+= (candidates[i].y_obj[j]);//-idealpoint[j])/(nadirpoint[j] - idealpoint[j]);
 	
 	for(int j = 0; j < nobj; j++)
 	{
@@ -271,7 +277,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	  int indexb=-1;
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
-	   double extremefitness = candidates[i].y_obj[j];// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
+	   double extremefitness = candidates[i].y_obj[j] + 0.001*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
 //	   double extremefitness = sumfit[i];
 //	   double extremefitness = -INFINITY;
 //	for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
@@ -315,7 +321,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 		//mini = min(mini, distance(reference[j].y_obj, candidates[i].y_obj));
 		//cout<< mini<<endl;
 		mini=0.0;
-		for(int m = 0; m< nobj;m++)
+		//for(int m = 0; m< nobj;m++)
 //		while(!pq.empty())
 		{mini += -pq.top(); pq.pop();}
 	  if( maxi < mini  ) 
