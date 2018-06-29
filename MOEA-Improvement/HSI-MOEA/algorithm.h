@@ -73,7 +73,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 //	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	}
-//   return (dist1) ;
+   return sqrt(dist1) ;
    //return sqrt(dist1) ;
    return (sqrt(dist1))?sqrt(dist1):0.0;//-sqrt(dist2);
 
