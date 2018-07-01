@@ -1,5 +1,6 @@
 for nobj in {2..8};
 do
+   (
    reference=""
    for k in $(seq 1 $nobj); do reference=$reference" "$((2*$k+1)); done
    for i in WFG1 WFG2 WFG3 WFG4 WFG5 WFG6 WFG7 WFG8 WFG9;
@@ -79,9 +80,9 @@ do
    file=../POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}.dat_bounded
       cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
    done
-
+   & )
 done
-
+wait
 echo "">RESULT
 for inst in {1..9}
 do
