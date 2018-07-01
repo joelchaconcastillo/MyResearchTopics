@@ -1,4 +1,4 @@
-for nobj in {2..8};
+for nobj in {2..7};
 do
    reference=""
    for k in $(seq 1 $nobj); do reference=$reference" "$((2*$k+1)); done
