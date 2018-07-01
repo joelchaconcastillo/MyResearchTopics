@@ -12,11 +12,11 @@
 #include <vector>
 #include <cassert>
 #include <algorithm>
+#include "random.h"
 
 
 using namespace std;
 
-#include "random.h"
 
 
 //------------- Parameters in test instance ------------------
@@ -27,8 +27,10 @@ double  lowBound = 0,   uppBound = 1;   //  lower and upper bounds of variables
 double  vlowBound[100] ,   vuppBound[100];   //  lower and upper bounds of variables
 
 char    strTestInstance[256];
+int param_l, param_k;
 
-
+int pops;
+long int  max_nfes;
 //------------- Parameters in random number ------------------
 int     seed    = 177;
 long    rnd_uni_init;        
@@ -44,7 +46,6 @@ int		etax    = 20, 	etam    = 20;   // distribution indexes of crossover and mut
 
 double  realx,  realm,  realb = 0.9;    // crossover, mutation, selection probabilities
 
-double Di; // distance available of the hypersphere...
 
 
 #endif

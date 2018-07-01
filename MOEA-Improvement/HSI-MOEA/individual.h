@@ -157,7 +157,9 @@ public:
 	vector <double> namda;     // weight vector
 	vector <int>    table;     // neighbourhood table
 	
+	
 	double          fitness;
+	double dist;
 
     void  operator=(const CSubproblem &sub2);
 };

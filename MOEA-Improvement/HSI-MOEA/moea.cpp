@@ -22,6 +22,7 @@
 // ===========================================================================*/
 
 
+
 #include "algorithm.h"
 #include <omp.h>
 
@@ -90,11 +91,22 @@ int main(int argc, char *argv[])
 		//readf>>nvar;
 		//readf>>nobj;
 		strcpy(strTestInstance, argv[1]);
-		nvar = atoi(argv[2]);
+		int run = 1;
+
+		run= atoi(argv[2]);
 		nobj = atoi(argv[3]);
-		int run= atoi(argv[4]);
+		pops = atoi(argv[4]);
+		max_nfes= atoi(argv[5]);
+
+		if(argc <= 7)
+		   nvar = atoi(argv[6]);
+		else  //WFG instances..
+		{
+		   param_l = atoi(argv[6]);
+		   param_k = atoi(argv[7]);
+		   nvar = param_l + param_k;
+		}
 		InitializeBounds(nvar, strTestInstance);
-		Di = sqrt(nvar)*0.25;
 
 		//printf("\n -- Instance: %s, %d variables %d objectives di: %f\n\n", strTestInstance, nvar, nobj, Di);
 
@@ -114,8 +126,8 @@ int main(int argc, char *argv[])
 		{
 			//printf("\n -- %d-th run  -- \n", run);
 			MOEA MOEAD;
-			MOEAD.load_parameter();
-			pop = MOEAD.pops;
+		//	MOEAD.load_parameter();
+		//	pop = MOEAD.pops;
 			MOEAD.exec_emo(run);
 			temp = clock();
 			duration = (double)(temp - start) / CLOCKS_PER_SEC;
