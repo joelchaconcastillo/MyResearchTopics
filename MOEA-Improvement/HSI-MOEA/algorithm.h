@@ -190,6 +190,18 @@ void MOEA::evol_population()
 		  rnd1 = int(rnd_uni(&rnd_uni_init)*pops);
 		while(rnd2 ==rnd1 || population[rnd2].dist == 0  )
 		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
+
+		//binary tournament...
+		int p1 = int(rnd_uni(&rnd_uni_init)*pops), p2 = int(rnd_uni(&rnd_uni_init)*pops), p3=int(rnd_uni(&rnd_uni_init)*pops), p4 = int(rnd_uni(&rnd_uni_init)*pops);
+		if(population[p1].dist > population[p2].dist)	
+		rnd1 = p1;
+		else rnd1=p2;
+
+		if(population[p3].dist > population[p4].dist)	
+		rnd2 = p3;
+		else rnd2=p4;
+
+
 //		if(sub<60) {rnd1=0;  }	else rnd1=1;
 
 //		while( rnd1==c_sub)
@@ -366,8 +378,8 @@ void MOEA::exec_emo(int run)
 	sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-Improvement/HSI-MOEA/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	//sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-Improvement/HSI-MOEA/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	//sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-Improvement/HSI-MOEA/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+	sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	//for(int gen=1; gen<=max_gen; gen++)
 	int gen=1;
 	while(nfes < max_nfes )
