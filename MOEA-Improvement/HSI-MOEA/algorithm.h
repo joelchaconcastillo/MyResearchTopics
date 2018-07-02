@@ -333,6 +333,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
   {
 	double maximprovement = -INFINITY;// DBL_MIN;
 	double maxeuclidean = -INFINITY;
+	double maxscore = -INFINITY;
 	int indexi=-1;
 	for(int i = 0; i < candidates.size(); i++)
 	{
@@ -343,15 +344,16 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 		   pqimprovement.push( -distance_improvement(reference[j].y_obj, candidates[i].y_obj));
 		   pqeuclidean.push( -distance(reference[j].y_obj, candidates[i].y_obj));
 		}
-	  if( maxeuclidean < -pqeuclidean.top()  ) 
+		double score = -pqimprovement.top() + 0.001*pqeuclidean.top();
+	  if( maxscore< score  ) 
 	   {
 		indexi = i;
-		maxeuclidean = -pqeuclidean.top();
+		maxscore=score;
 	   }
-	if( maximprovement < -pqimprovement.top()  ) 
-	   {
-		maximprovement= -pqimprovement.top();
-	   }
+//	if( maximprovement < -pqimprovement.top()  ) 
+//	   {
+//		maximprovement= -pqimprovement.top();
+//	   }
 	}
 	reference.push_back(candidates[indexi]);
 	iter_swap(candidates.begin()+indexi, candidates.end()-1);
