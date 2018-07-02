@@ -186,13 +186,19 @@ void MOEA::evol_population()
 		double rnd1 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
 		double rnd2 = int(rnd_uni(&rnd_uni_init)*pops) ;//;rnd_uni(&rnd_uni_init);
 
-		while( population[rnd1].dist == 0)
-		  rnd1 = int(rnd_uni(&rnd_uni_init)*pops);
-		while(rnd2 ==rnd1 || population[rnd2].dist == 0  )
-		  rnd2 = int(rnd_uni(&rnd_uni_init)*pops);
+		int p1 = int(rnd_uni(&rnd_uni_init)*pops), p2 = int(rnd_uni(&rnd_uni_init)*pops), p3=int(rnd_uni(&rnd_uni_init)*pops), p4 = int(rnd_uni(&rnd_uni_init)*pops);
+		while( population[p1].dist == 0)
+		  p1= int(rnd_uni(&rnd_uni_init)*pops);
+		while(p2 == p1 || population[p2].dist == 0  )
+		  p2 = int(rnd_uni(&rnd_uni_init)*pops);
+
+		while( population[p3].dist == 0)
+		  p3= int(rnd_uni(&rnd_uni_init)*pops);
+		while(p3 == p4 || population[p4].dist == 0  )
+		  p4 = int(rnd_uni(&rnd_uni_init)*pops);
+
 
 		//binary tournament...
-		int p1 = int(rnd_uni(&rnd_uni_init)*pops), p2 = int(rnd_uni(&rnd_uni_init)*pops), p3=int(rnd_uni(&rnd_uni_init)*pops), p4 = int(rnd_uni(&rnd_uni_init)*pops);
 		if(population[p1].dist > population[p2].dist)	
 		rnd1 = p1;
 		else rnd1=p2;
@@ -329,27 +335,31 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	for(int i = 0; i < candidates.size(); i++)
 	{
 	priority_queue< pair<double, double>  > pq;
-	   double mini = INFINITY;
+	   double mini = INFINITY, mini2 ;
 	   for(int j = 0; j < reference.size(); j++)
 		pq.push( make_pair( - distance_improvement(reference[j].y_obj, candidates[i].y_obj) , -distance_improvement(reference[j].y_obj, candidates[i].y_obj)));
 		//mini = min(mini, distance_improvement(reference[j].y_obj, candidates[i].y_obj));
 		//mini = min(mini, distance(reference[j].y_obj, candidates[i].y_obj));
 		//cout<< mini<<endl;
 		mini=0.0;
+		mini2=0.0;
 		//for(int m = 0; m< nobj;m++)
 //		while(!pq.empty())
-		{mini += -pq.top().first; pq.pop();}
+		mini += -pq.top().first;
+		for(int m = 0; m< nobj;m++)
+		{mini2 += -pq.top().first; pq.pop();}
+
 	  if( maxi < mini  ) 
 	   {
 		indexi = i;
 		maxi = mini;
-		maxi2 = -pq.top().first;
+		maxi2 = mini2;
 	    }
 	}
 	reference.push_back(candidates[indexi]);
 	iter_swap(candidates.begin()+indexi, candidates.end()-1);
 	candidates.pop_back();
-	distances[reference.size()-1] = maxi2;
+	distances[reference.size()-1] = maxi;
   }
 	//getchar();
 
@@ -379,7 +389,7 @@ void MOEA::exec_emo(int run)
 	//sprintf(filename1,"POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-Improvement/HSI-MOEA/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
-	//sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
+//	sprintf(filename2,"POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	//for(int gen=1; gen<=max_gen; gen++)
 	int gen=1;
 	while(nfes < max_nfes )
