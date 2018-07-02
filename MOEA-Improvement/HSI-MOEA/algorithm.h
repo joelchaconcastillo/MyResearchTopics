@@ -192,20 +192,21 @@ void MOEA::evol_population()
 		while(p2 == p1 || population[p2].dist == 0  )
 		  p2 = int(rnd_uni(&rnd_uni_init)*pops);
 
-		while( population[p3].dist == 0)
-		  p3= int(rnd_uni(&rnd_uni_init)*pops);
-		while(p3 == p4 || population[p4].dist == 0  )
-		  p4 = int(rnd_uni(&rnd_uni_init)*pops);
+	//	while( population[p3].dist == 0)
+	//	  p3= int(rnd_uni(&rnd_uni_init)*pops);
+	//	while(p3 == p4 || population[p4].dist == 0  )
+	//	  p4 = int(rnd_uni(&rnd_uni_init)*pops);
 
-
+		rnd1=p1;
+		rnd2=p2;
 		//binary tournament...
-		if(population[p1].dist > population[p2].dist)	
-		rnd1 = p1;
-		else rnd1=p2;
+	//	if(population[p1].dist > population[p2].dist)	
+	//	rnd1 = p1;
+	//	else rnd1=p2;
 
-		if(population[p3].dist > population[p4].dist)	
-		rnd2 = p3;
-		else rnd2=p4;
+	//	if(population[p3].dist > population[p4].dist)	
+	//	rnd2 = p3;
+	//	else rnd2=p4;
 
 
 //		if(sub<60) {rnd1=0;  }	else rnd1=1;
