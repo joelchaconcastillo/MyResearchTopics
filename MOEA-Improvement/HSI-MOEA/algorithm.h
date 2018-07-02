@@ -62,7 +62,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 	double dist1 = 0.0, dist2=0.0 ;
 	double teta = 1.0 - ((double)(2.0*curren_gen)/max_gen);
 	teta = max(0.00001,teta );
-	teta = 0.001;
+//	teta = 0.001;
    for(int i = 0; i < reference.size(); i++)
 	{
 		double current_normalized = current[i];///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
@@ -74,7 +74,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 //	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	}
-   return sqrt(dist1)+(teta)*sqrt(dist2) ;
+   return sqrt(dist1);//+(teta)*sqrt(dist2) ;
    return sqrt(dist1);//+ 1.0/(1.0+sqrt(dist2));
    return (sqrt(dist1))?sqrt(dist1):-sqrt(dist2);
 
@@ -331,37 +331,32 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 
   while(reference.size() < pops) 
   {
-	double maxi =-INFINITY;// DBL_MIN;
-	double maxi2= INFINITY;
+	double maximprovement = -INFINITY;// DBL_MIN;
+	double maxeuclidean = -INFINITY;
 	int indexi=-1;
 	for(int i = 0; i < candidates.size(); i++)
 	{
-	priority_queue< pair<double, double>  > pq;
-	   double mini = INFINITY, mini2 ;
+	priority_queue< double > pqimprovement, pqeuclidean;
+	   double minimprovement = INFINITY, mineuclidean=INFINITY ;
 	   for(int j = 0; j < reference.size(); j++)
-		pq.push( make_pair( - distance_improvement(reference[j].y_obj, candidates[i].y_obj) , -distance_improvement(reference[j].y_obj, candidates[i].y_obj)));
-		//mini = min(mini, distance_improvement(reference[j].y_obj, candidates[i].y_obj));
-		//mini = min(mini, distance(reference[j].y_obj, candidates[i].y_obj));
-		//cout<< mini<<endl;
-		mini=0.0;
-		mini2=0.0;
-		//for(int m = 0; m< nobj;m++)
-//		while(!pq.empty())
-		mini += -pq.top().first;
-		for(int m = 0; m< nobj;m++)
-		{mini2 += -pq.top().first; pq.pop();}
-
-	  if( maxi < mini  ) 
+		{
+		   pqimprovement.push( -distance_improvement(reference[j].y_obj, candidates[i].y_obj));
+		   pqeuclidean.push( -distance(reference[j].y_obj, candidates[i].y_obj));
+		}
+	  if( maxeuclidean < pqeuclidean.top()  ) 
 	   {
 		indexi = i;
-		maxi = mini;
-		maxi2 = mini2;
-	    }
+		maxeuclidean = pqeuclidean.top();
+	   }
+	if( maximprovement< pqimprovement.top()  ) 
+	   {
+		maximprovement= pqimprovement.top();
+	   }
 	}
 	reference.push_back(candidates[indexi]);
 	iter_swap(candidates.begin()+indexi, candidates.end()-1);
 	candidates.pop_back();
-	distances[reference.size()-1] = maxi;
+	distances[reference.size()-1] = maximprovement;
   }
 	//getchar();
 
