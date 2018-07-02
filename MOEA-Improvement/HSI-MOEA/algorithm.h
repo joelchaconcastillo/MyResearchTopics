@@ -343,14 +343,14 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 		   pqimprovement.push( -distance_improvement(reference[j].y_obj, candidates[i].y_obj));
 		   pqeuclidean.push( -distance(reference[j].y_obj, candidates[i].y_obj));
 		}
-	  if( maxeuclidean < pqeuclidean.top()  ) 
+	  if( maxeuclidean < -pqeuclidean.top()  ) 
 	   {
 		indexi = i;
-		maxeuclidean = pqeuclidean.top();
+		maxeuclidean = -pqeuclidean.top();
 	   }
-	if( maximprovement< pqimprovement.top()  ) 
+	if( maximprovement < -pqimprovement.top()  ) 
 	   {
-		maximprovement= pqimprovement.top();
+		maximprovement= -pqimprovement.top();
 	   }
 	}
 	reference.push_back(candidates[indexi]);
