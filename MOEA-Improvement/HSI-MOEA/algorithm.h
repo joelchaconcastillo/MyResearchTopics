@@ -62,6 +62,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 	double dist1 = 0.0, dist2=0.0 ;
 	double teta = 1.0 - ((double)(2.0*curren_gen)/max_gen);
 	teta = max(0.00001,teta );
+	teta = 0.001;
    for(int i = 0; i < reference.size(); i++)
 	{
 		double current_normalized = current[i];///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
@@ -73,7 +74,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 //	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	}
-   return sqrt(dist1);//+(teta)*sqrt(dist2) ;
+   return sqrt(dist1)+(teta)*sqrt(dist2) ;
    return sqrt(dist1);//+ 1.0/(1.0+sqrt(dist2));
    return (sqrt(dist1))?sqrt(dist1):-sqrt(dist2);
 
