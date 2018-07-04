@@ -56,7 +56,6 @@ MOEA::~MOEA()
 {
 
 }
-
 double MOEA::distance_improvement( vector<double> &reference, vector<double> &current)
 {
 	double dist1 = 0.0, dist2=0.0 ;
@@ -68,13 +67,14 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 		double current_normalized = current[i];///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 		double reference_normalized = reference[i];///(2.0*(i+1.0));// (reference[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 	   if(current_normalized < reference_normalized)
+	   {
 	      dist1 += (current_normalized - reference_normalized)*(current_normalized - reference_normalized);
-//	   else
-//	      dist1 +=teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
+	   }
+	   else
+	      dist2 +=(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
 //	      dist1 += teta*(reference_normalized - current_normalized)*(reference_normalized - current_normalized);
-	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
+//	      dist2 += (current_normalized-reference_normalized)*(current_normalized-reference_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	}
-   return sqrt(dist1);//+(teta)*sqrt(dist2) ;
    return sqrt(dist1);//+ 1.0/(1.0+sqrt(dist2));
    return (sqrt(dist1))?sqrt(dist1):-sqrt(dist2);
 
@@ -145,8 +145,8 @@ void MOEA::init_population()
 	curren_gen=1.0;
 	idealpoint = currentidealpoint;
 	for(int n=0; n<nobj; n++)
-	nadirpoint[n] = currentnadirpoint[n]/pops;
-//	update_reference_vectors();
+	nadirpoint[n] = currentnadirpoint[n];
+	update_reference_vectors();
 //	readf.close( );
 }
 
@@ -176,6 +176,8 @@ void MOEA::evol_population()
 	
 
 	improvement_selection(child_pop, population);
+
+	update_reference_vectors();
     //for(int sub=0; sub<order.size(); sub++)
     for(int sub=0; sub<order.size(); sub+=2)
 	{
@@ -246,7 +248,6 @@ void MOEA::evol_population()
 		child_pop[c_sub+1].indiv = child2;
 		nfes+=2;
 	}
-	update_reference_vectors();
 }
 void MOEA::update_reference_vectors()
 {
@@ -337,18 +338,26 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	int indexi=-1;
 	for(int i = 0; i < candidates.size(); i++)
 	{
-	priority_queue< double > pqimprovement, pqeuclidean;
+
+		double sum=0.0;
+		for(int k =0 ; k < nobj;k++) sum += candidates[i].y_obj[k];
+
+	priority_queue< pair<double, double> > pqimprovement, pqeuclidean;
 	   double minimprovement = INFINITY, mineuclidean=INFINITY ;
 	   for(int j = 0; j < reference.size(); j++)
 		{
-		   pqimprovement.push( -distance_improvement(reference[j].y_obj, candidates[i].y_obj));
-		   pqeuclidean.push( -distance(reference[j].y_obj, candidates[i].y_obj));
+		   //pqimprovement.push( make_pair(-distance_improvement(reference[j].y_obj, candidates[i].y_obj)-0.01*distance(reference[j].y_obj, candidates[i].y_obj)+0.001*sum, 0 ));
+		   pqimprovement.push( make_pair(-distance(reference[j].y_obj, candidates[i].y_obj), 0 ));
+//		   pqeuclidean.push( -distance(reference[j].y_obj, candidates[i].y_obj));
 		}
-		double score = -pqimprovement.top() + 0.001*pqeuclidean.top();
+		double score =0.0;// -pqimprovement.top().first-0.1*pqimprovement.top().second;//+ 0.1*pqimprovement.top().second;
+		  score += -pqimprovement.top().first-2.0*sum;
+
 	  if( maxscore< score  ) 
 	   {
 		indexi = i;
 		maxscore=score;
+		maximprovement = -pqimprovement.top().first;
 	   }
 //	if( maximprovement < -pqimprovement.top()  ) 
 //	   {
@@ -361,9 +370,11 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	distances[reference.size()-1] = maximprovement;
   }
 	//getchar();
-
+	//for(int i = 0; i < nobj; i++)
+	//reference[reference.size()-i-1].y_obj[i]-=1;
    for(int i = 0; i < reference.size(); i++)   
    {
+
       parents[i].indiv = reference[i]; 
       parents[i].indiv.obj_eval();
       parents[i].dist = distances[i];
