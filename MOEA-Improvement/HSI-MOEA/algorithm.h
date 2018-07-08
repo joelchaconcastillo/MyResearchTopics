@@ -347,17 +347,20 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	   for(int j = 0; j < reference.size(); j++)
 		{
 		   //pqimprovement.push( make_pair(-distance_improvement(reference[j].y_obj, candidates[i].y_obj)-0.01*distance(reference[j].y_obj, candidates[i].y_obj)+0.001*sum, 0 ));
-		   pqimprovement.push( make_pair(-distance(reference[j].y_obj, candidates[i].y_obj), 0 ));
+			double fac = distance_improvement(reference[j].y_obj, candidates[i].y_obj);///distance(reference[j].y_obj, candidates[i].y_obj);
+		   pqimprovement.push( make_pair( -fac*cos(fac/(M_PI*4) , 0 ));
+		   //pqimprovement.push( make_pair(-distance_improvement(reference[j].y_obj, candidates[i].y_obj) + 0.5*distance(reference[j].y_obj, candidates[i].y_obj) , 0 ));
 //		   pqeuclidean.push( -distance(reference[j].y_obj, candidates[i].y_obj));
 		}
 		double score =0.0;// -pqimprovement.top().first-0.1*pqimprovement.top().second;//+ 0.1*pqimprovement.top().second;
-		  score += -pqimprovement.top().first-2.0*sum;
+		  score += -pqimprovement.top().first;
+//		for(int m = 0; m < nobj; m++) score += -1.0*distance_improvement(reference[reference.size()-m-1].y_obj, candidates[i].y_obj);
 
 	  if( maxscore< score  ) 
 	   {
 		indexi = i;
 		maxscore=score;
-		maximprovement = -pqimprovement.top().first;
+		maximprovement = score;//-pqimprovement.top().first;
 	   }
 //	if( maximprovement < -pqimprovement.top()  ) 
 //	   {
