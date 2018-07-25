@@ -71,3 +71,32 @@ for(my $t=1; $t<=10; $t++)
    	}
    }
 }
+
+@Instance = ("UF1", "UF2", "UF3", "UF4", "UF5", "UF6", "UF7");
+my $nobj=2;
+for(my $t=1; $t<=10; $t++)
+{
+   foreach(@Instance)
+   {
+   	   my $nvar=30;
+   	   for(my $Sed = 1; $Sed <=35; $Sed++) ##Realizar 35 ejecuciones con distintas semilla de cada instancia..
+   	   {
+   	   	print $fout "~$PathAlgorithm/Ejecutable $PathAlgorithm $_ $Sed $nobj $pops $max_nfes  $neighboursize $Di $prob $nvar\n";
+   	   }
+   }
+}
+
+@Instance = ("UF8", "UF9", "UF10");
+$nobj=3;
+for(my $t=1; $t<=10; $t++)
+{
+   foreach(@Instance)
+   {
+   	   my $nvar=30;
+   	
+   	   for(my $Sed = 1; $Sed <=35; $Sed++) ##Realizar 35 ejecuciones con distintas semilla de cada instancia..
+   	   {
+   	   	print $fout "~$PathAlgorithm/Ejecutable $PathAlgorithm $_ $Sed $nobj $pops $max_nfes $neighboursize $Di $prob $nvar\n";
+   	   }
+   }
+}
