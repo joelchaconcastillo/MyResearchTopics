@@ -301,7 +301,11 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
 	   double extremefitness = 0.0;// candidates[i].y_obj[j] + 0.001*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
-	   for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
+	   vector <double> ref(nobj,0.0);
+	   ref[j]=1.0;
+	extremefitness = fitnessfunction(candidates[i].y_obj, ref);
+//	   for(int z = 0; z < nobj; z++)  extremefitness+=pow(candidates[i].y_obj[z],2) ;
+//		extremefitness = sqrt(extremefitness);
 //	   double extremefitness = sumfit[i];
 //	   double extremefitness = -INFINITY;
 //	for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
