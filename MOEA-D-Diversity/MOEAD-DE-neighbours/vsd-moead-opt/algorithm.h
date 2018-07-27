@@ -36,8 +36,8 @@ public:
 	// execute MOEAD
 	void exec_emo(int run);
 
-	void save_front(char savefilename[1024]);       // save the pareto front into files
-	void save_pos(char savefilename[1024]);
+	void save_front(char savefilename[4024]);       // save the pareto front into files
+	void save_pos(char savefilename[4024]);
 
 	void tour_selection(int depth, vector<int> &selected);
 	void comp_utility();
@@ -47,7 +47,6 @@ public:
 	double DCN(CIndividual &ind, int &index);
 	double distance( vector<double> &a, vector<double> &b);
 	vector <CSubproblem> population;
-	vector< vector <CIndividual> >	memory;
 	vector<CIndividual> child_pop, best;	// memory solutions
 	vector<int> indexSeeds;
 
@@ -601,7 +600,7 @@ void CMOEAD::evol_population()
 		//child_pop[c_sub] = child;
 		update_problem(child1, c_sub, type);
 	//	update_problem(child2, c_sub, type);
-		nfes++;
+	//	nfes++;
 	}
 		replacement_phase();
 
@@ -618,20 +617,20 @@ void CMOEAD::exec_emo(int run)
 
 	// initialization
 	nfes      = 0;
-	indexSeeds.push_back(0);
 	init_population();
-    init_neighbourhood();
-	memory.resize(pops);
+        init_neighbourhood();
 //	sprintf(filename1,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	sprintf(filename1,"%s/POS/POS_MOEAD_%s_RUN%d_seed_%d_nobj_%d_niche_%d.dat_bounded",strpath, strTestInstance,run, seed, nobj, niche);
 	//sprintf(filename2,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d.dat_bounded",strTestInstance,run, seed, nobj);
 	sprintf(filename2,"%s/POF/POF_MOEAD_%s_RUN%d_seed_%d_nobj_%d_niche_%d.dat_bounded",strpath, strTestInstance,run, seed, nobj, niche);
 	//for(int gen=1; gen<=max_gen; gen++)
-	for(nfes=1; nfes<=max_nfes; nfes++)
+//	for(nfes=1; nfes<=max_nfes
+	while(nfes<max_nfes)
 	{
 		//curren_gen = gen;	
 		update_parameterD();
 		evol_population();
+	        nfes += pops;
 	}
 		save_pos(filename1);
 		save_front(filename2);
@@ -642,14 +641,14 @@ void CMOEAD::exec_emo(int run)
 
 void CMOEAD::load_parameter()
 {
-	char filename[1024];
+	char filename[4024];
 
 	//sprintf(filename,"/home/joel.chacon/Current/MyResearchTopics/MOEA-D-Diversity/MOEAD-DE/vsd-moead-opt/ParameterSetting/%s.txt", strTestInstance);
 	sprintf(filename,"%s/ParameterSetting/%s.txt", strpath,strTestInstance);
 
-	char temp[1024];
+	char temp[4024];
 	std::ifstream readf(filename);
-	readf.getline(temp, 1024);
+	readf.getline(temp, 4024);
 	//puts(temp);
 int trash;	
 	readf>>pops;
@@ -667,7 +666,7 @@ int trash;
 }
 
 
-void CMOEAD::save_front(char saveFilename[1024])
+void CMOEAD::save_front(char saveFilename[4024])
 {
 
     std::fstream fout;
@@ -686,7 +685,7 @@ void CMOEAD::save_front(char saveFilename[1024])
 	fout.close();
 }
 
-void CMOEAD::save_pos(char saveFilename[1024])
+void CMOEAD::save_pos(char saveFilename[4024])
 {
     std::fstream fout;
 	//fout.open(saveFilename,std::ios::out);
