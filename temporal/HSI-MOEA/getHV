@@ -1,0 +1,16 @@
+#$1 --> file
+#$2 --> objectives
+#$3 --> reference point
+
+#tail -100 POF/POF_MOEAD_DTLZ7_RUN1_seed_24_nobj_8.dat_bounded| awk '{print $1" "$2" "$3" "$4" "$5" "$6" "$7" "$8}' | ../../Data/HV/hv -r "21 21 21 21 21 21 21 21" 
+#2obj WFG
+#tail -120 $1 | awk '{print $1" "$2 }' | ../../Data/HV/hv -r "3 5" 
+##3obj WFG
+#tail -120 $1 | awk '{print $1" "$2" "$3 }' | ../../Data/HV/hv -r "3 5 7" 
+
+#2obj DTLZ
+tail -120 $1 | cut -d' ' -f 1-$((2*$2)) | ../../Data/HV/hv -r "$3"
+#3obj DLTZ
+#tail -120 $1 | awk '{print $1" "$2" "$3 }' | ../../Data/HV/hv -r "2 2 2" 
+##4obj DLTZ
+#tail -120 $1 | awk '{print $1" "$2" "$3" "$4 }' | ../../Data/HV/hv -r "2 2 2 2" 
