@@ -116,7 +116,7 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
       }
 	r1 = sqrt(r1);
 	r2 = sqrt(r2);
-	double S=0.6;
+	double S=0.5;
    for(int i = 0; i < reference.size(); i++)
 	{
 		double omega1 = acos(current[i]/(r1));
@@ -426,7 +426,7 @@ void MOEA::improvement_selection_vectors(vector<CSubproblem> &offspring, vector<
 		maxeuclidean= score;
 	   }
 	}
-
+	cout << indexa <<" "<<indexb<<endl;
 	//generate the artifitial vector....	
 	vector<double> reference_art(nobj);
 	double normref=0.0;
@@ -442,7 +442,7 @@ void MOEA::improvement_selection_vectors(vector<CSubproblem> &offspring, vector<
 	double minfitness = INFINITY;
 	for(int i =0; i < candidates.size(); i++)
 	{
-		double ft =   fitnessfunction( candidates[i].y_obj, reference_art);
+		double ft =  distance(candidates[i].y_obj, reference_art);// fitnessfunction( candidates[i].y_obj, reference_art);
 		if(minfitness > ft)
 		{
 		   minfitness = ft;
@@ -453,7 +453,7 @@ void MOEA::improvement_selection_vectors(vector<CSubproblem> &offspring, vector<
 	reference.push_back(candidates[indexi]);
 	iter_swap(candidates.begin()+indexi, candidates.end()-1);
 	candidates.pop_back();
-	distances[reference.size()-1] = -minfitness;//maximprovement;
+//	distances[reference.size()-1] = -minfitness;//maximprovement;
   }
 	static int gen2=0;
 	cout << gen2+1<<endl; gen2++;
