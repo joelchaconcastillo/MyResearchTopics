@@ -9,7 +9,7 @@ do
 
 	   for file in ../$alg/${i}_2*
 	   do
-		cat ${file} | ./MPlus --IGD --r Optimals/${i}_2.txt >>${algname[${cont}]}/${i}_2
+		cat ${file} | ./IGD.exe --IGD --r ../Optimals/${i}_2.txt >>${algname[${cont}]}/${i}_2
 	   done ;
    done
    #################3obj
@@ -19,7 +19,7 @@ do
 
 	   for file in ../$alg/${i}_3*
 	   do
-	cat ${file} | ./MPlus --IGD --r Optimals/${i}_3.txt >>${algname[${cont}]}/${i}_3
+	cat ${file} | ./IGD.exe --IGD --r ../Optimals/${i}_3.txt >>${algname[${cont}]}/${i}_3
 	   done
    done
    cont=$((cont+1))
