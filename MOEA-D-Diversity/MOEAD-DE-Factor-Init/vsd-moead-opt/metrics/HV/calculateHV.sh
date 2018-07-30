@@ -5,7 +5,7 @@ do
   for nobj in {2..3};
   do
      reference=""
-     for k in $(seq 1 $nobj); do reference=$reference" "$((2*$k+1)); done
+     for k in $(seq 1 $nobj); do reference=$reference" "$(echo print 2*${k} + 0.2*${k}| perl); done
      for i in WFG1 WFG2 WFG3 WFG4 WFG5 WFG6 WFG7 WFG8 WFG9;
      do
   	   fileout=${i}_${nobj}_${Di}
@@ -66,7 +66,7 @@ do
 
 
      reference=""
-     for k in $(seq 1 $nobj); do reference=$reference" "2; done
+     for k in $(seq 1 $nobj); do reference=$reference" "1.1; done
      for i in DTLZ2 DTLZ4;
      do
   	   fileout=${i}_${nobj}_${Di}
@@ -85,7 +85,7 @@ do
   
      reference=""
      i="DTLZ1"
-     for k in $(seq 1 $nobj); do reference=$reference" "1; done
+     for k in $(seq 1 $nobj); do reference=$reference" "0.55; done
   	   #fileout=${i}_${nobj}_${niche}
   	   fileout=${i}_${nobj}_${Di}
              rm $fileout
@@ -101,7 +101,8 @@ do
   
      reference=""
      i="DTLZ3"
-     for k in $(seq 1 $nobj); do reference=$reference" "7; done
+     for k in $(seq 1 $nobj); do reference=$reference" "1.1; done
+
   	   fileout=${i}_${nobj}_${Di}
   	   #fileout=${i}_${nobj}_${niche}
      	   rm $fileout
@@ -114,42 +115,56 @@ do
 	     echo "" >>$fileout 
         #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
      done
+     if [ $nobj -eq 2 ]
+     then
+
+        reference="1.1 1.1"
+     fi
+     if [ $nobj -eq 3 ]
+     then
+        value=$(awk 'BEGIN{print sqrt(0.5)+0.1*sqrt(0.5)}')
+        reference="$value $value 1.1"
+     fi
+        i="DTLZ5"
+              #fileout=${i}_${nobj}_${niche}
+              fileout=${i}_${nobj}_${Di}
+        	   rm $fileout
+        for k in {1..35}
+        do
+        file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+             v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+             v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+                echo print ${v1}/${v2} | perl >> $fileout
+                echo "" >>$fileout 
+#           cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+        done
   
-     reference=""
-     i="DTLZ5"
-     for k in $(seq 1 $nobj); do reference=$reference" "4; done
-  	   #fileout=${i}_${nobj}_${niche}
-  	   fileout=${i}_${nobj}_${Di}
-     	   rm $fileout
-     for k in {1..35}
-     do
-     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-    	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-	     echo print ${v1}/${v2} | perl >> $fileout
-	     echo "" >>$fileout 
-#        cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-     done
-  
-     reference=""
-     i="DTLZ6"
-     for k in $(seq 1 $nobj); do reference=$reference" "11; done
-  	   #fileout=${i}_${nobj}_${niche}
-  	   fileout=${i}_${nobj}_${Di}
-     	   rm $fileout
-     for k in {1..35}
-     do
-     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-    	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-	     echo print ${v1}/${v2} | perl >> $fileout
-	     echo "" >>$fileout 
-        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-     done
-  
+        i="DTLZ6"
+              #fileout=${i}_${nobj}_${niche}
+              fileout=${i}_${nobj}_${Di}
+        	   rm $fileout
+        for k in {1..35}
+        do
+        file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+             v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+             v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+                echo print ${v1}/${v2} | perl >> $fileout
+                echo "" >>$fileout 
+           #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+        done
      reference=""
      i="DTLZ7"
-     for k in $(seq 1 $nobj); do reference=$reference" "21; done
+      if [ $nobj -eq 2 ]
+     then
+
+        reference="1.1 4.4"
+     fi
+     if [ $nobj -eq 3 ]
+     then
+        reference="1.1 1.1 6.6"
+     fi
+
+#     for k in $(seq 1 $nobj); do reference=$reference" "21; done
   	   #fileout=${i}_${nobj}_${niche}
   	   fileout=${i}_${nobj}_${Di}
      	   rm $fileout

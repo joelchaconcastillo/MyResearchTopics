@@ -1,0 +1,295 @@
+file Wins Loses Ties
+instance  DTLZ1_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ1_2 1 3 0
+data-instances/MOEA_D_DE/DTLZ1_2 2 2 0
+data-instances/NSGAII_DE/DTLZ1_2 0 4 0
+data-instances/Proposal_DE/DTLZ1_2 3 1 0
+data-instances/SMS_EMOA_DE/DTLZ1_2 4 0 0
+instance  DTLZ1_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ1_3 1 2 1
+data-instances/MOEA_D_DE/DTLZ1_3 2 2 0
+data-instances/NSGAII_DE/DTLZ1_3 0 3 1
+data-instances/Proposal_DE/DTLZ1_3 3 1 0
+data-instances/SMS_EMOA_DE/DTLZ1_3 2 0 2
+instance  DTLZ2_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ2_2 2 1 1
+data-instances/MOEA_D_DE/DTLZ2_2 1 2 1
+data-instances/NSGAII_DE/DTLZ2_2 0 3 1
+data-instances/Proposal_DE/DTLZ2_2 1 2 1
+data-instances/SMS_EMOA_DE/DTLZ2_2 4 0 0
+instance  DTLZ2_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ2_3 1 0 3
+data-instances/MOEA_D_DE/DTLZ2_3 0 1 3
+data-instances/NSGAII_DE/DTLZ2_3 0 1 3
+data-instances/Proposal_DE/DTLZ2_3 1 0 3
+data-instances/SMS_EMOA_DE/DTLZ2_3 0 0 4
+instance  DTLZ3_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ3_2 2 1 1
+data-instances/MOEA_D_DE/DTLZ3_2 1 3 0
+data-instances/NSGAII_DE/DTLZ3_2 0 3 1
+data-instances/Proposal_DE/DTLZ3_2 2 2 0
+data-instances/SMS_EMOA_DE/DTLZ3_2 4 0 0
+instance  DTLZ3_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ3_3 1 2 1
+data-instances/MOEA_D_DE/DTLZ3_3 2 2 0
+data-instances/NSGAII_DE/DTLZ3_3 0 4 0
+data-instances/Proposal_DE/DTLZ3_3 3 1 0
+data-instances/SMS_EMOA_DE/DTLZ3_3 3 0 1
+instance  DTLZ4_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ4_2 4 0 0
+data-instances/MOEA_D_DE/DTLZ4_2 0 3 1
+data-instances/NSGAII_DE/DTLZ4_2 1 2 1
+data-instances/Proposal_DE/DTLZ4_2 3 1 0
+data-instances/SMS_EMOA_DE/DTLZ4_2 1 3 0
+instance  DTLZ4_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ4_3 1 2 1
+data-instances/MOEA_D_DE/DTLZ4_3 0 4 0
+data-instances/NSGAII_DE/DTLZ4_3 1 2 1
+data-instances/Proposal_DE/DTLZ4_3 3 1 0
+data-instances/SMS_EMOA_DE/DTLZ4_3 4 0 0
+instance  DTLZ5_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ5_2 2 1 1
+data-instances/MOEA_D_DE/DTLZ5_2 1 2 1
+data-instances/NSGAII_DE/DTLZ5_2 0 3 1
+data-instances/Proposal_DE/DTLZ5_2 1 2 1
+data-instances/SMS_EMOA_DE/DTLZ5_2 4 0 0
+instance  DTLZ5_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ5_3 2 0 2
+data-instances/MOEA_D_DE/DTLZ5_3 0 3 1
+data-instances/NSGAII_DE/DTLZ5_3 2 0 2
+data-instances/Proposal_DE/DTLZ5_3 0 3 1
+data-instances/SMS_EMOA_DE/DTLZ5_3 2 0 2
+instance  DTLZ6_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ6_2 4 0 0
+data-instances/MOEA_D_DE/DTLZ6_2 2 1 1
+data-instances/NSGAII_DE/DTLZ6_2 0 4 0
+data-instances/Proposal_DE/DTLZ6_2 2 1 1
+data-instances/SMS_EMOA_DE/DTLZ6_2 1 3 0
+instance  DTLZ6_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ6_3 4 0 0
+data-instances/MOEA_D_DE/DTLZ6_3 0 3 1
+data-instances/NSGAII_DE/DTLZ6_3 2 1 1
+data-instances/Proposal_DE/DTLZ6_3 0 2 2
+data-instances/SMS_EMOA_DE/DTLZ6_3 2 2 0
+instance  DTLZ7_2
+file Wins Loses Ties
+data-instances/GDE3/DTLZ7_2 2 1 1
+data-instances/MOEA_D_DE/DTLZ7_2 0 3 1
+data-instances/NSGAII_DE/DTLZ7_2 2 1 1
+data-instances/Proposal_DE/DTLZ7_2 0 3 1
+data-instances/SMS_EMOA_DE/DTLZ7_2 4 0 0
+instance  DTLZ7_3
+file Wins Loses Ties
+data-instances/GDE3/DTLZ7_3 3 0 1
+data-instances/MOEA_D_DE/DTLZ7_3 0 4 0
+data-instances/NSGAII_DE/DTLZ7_3 1 1 2
+data-instances/Proposal_DE/DTLZ7_3 1 0 3
+data-instances/SMS_EMOA_DE/DTLZ7_3 1 1 2
+instance  UF10_3
+file Wins Loses Ties
+data-instances/GDE3/UF10_3 0 4 0
+data-instances/MOEA_D_DE/UF10_3 2 1 1
+data-instances/NSGAII_DE/UF10_3 1 3 0
+data-instances/Proposal_DE/UF10_3 4 0 0
+data-instances/SMS_EMOA_DE/UF10_3 2 1 1
+instance  UF1_2
+file Wins Loses Ties
+data-instances/GDE3/UF1_2 1 3 0
+data-instances/MOEA_D_DE/UF1_2 4 0 0
+data-instances/NSGAII_DE/UF1_2 0 2 2
+data-instances/Proposal_DE/UF1_2 1 1 2
+data-instances/SMS_EMOA_DE/UF1_2 1 1 2
+instance  UF2_2
+file Wins Loses Ties
+data-instances/GDE3/UF2_2 1 3 0
+data-instances/MOEA_D_DE/UF2_2 4 0 0
+data-instances/NSGAII_DE/UF2_2 0 4 0
+data-instances/Proposal_DE/UF2_2 3 1 0
+data-instances/SMS_EMOA_DE/UF2_2 2 2 0
+instance  UF3_2
+file Wins Loses Ties
+data-instances/GDE3/UF3_2 0 3 1
+data-instances/MOEA_D_DE/UF3_2 3 1 0
+data-instances/NSGAII_DE/UF3_2 0 3 1
+data-instances/Proposal_DE/UF3_2 4 0 0
+data-instances/SMS_EMOA_DE/UF3_2 2 2 0
+instance  UF4_2
+file Wins Loses Ties
+data-instances/GDE3/UF4_2 0 4 0
+data-instances/MOEA_D_DE/UF4_2 2 1 1
+data-instances/NSGAII_DE/UF4_2 1 3 0
+data-instances/Proposal_DE/UF4_2 2 1 1
+data-instances/SMS_EMOA_DE/UF4_2 4 0 0
+instance  UF5_2
+file Wins Loses Ties
+data-instances/GDE3/UF5_2 0 4 0
+data-instances/MOEA_D_DE/UF5_2 1 1 2
+data-instances/NSGAII_DE/UF5_2 2 1 1
+data-instances/Proposal_DE/UF5_2 4 0 0
+data-instances/SMS_EMOA_DE/UF5_2 1 2 1
+instance  UF6_2
+file Wins Loses Ties
+data-instances/GDE3/UF6_2 0 4 0
+data-instances/MOEA_D_DE/UF6_2 3 0 1
+data-instances/NSGAII_DE/UF6_2 2 2 0
+data-instances/Proposal_DE/UF6_2 3 0 1
+data-instances/SMS_EMOA_DE/UF6_2 1 3 0
+instance  UF7_2
+file Wins Loses Ties
+data-instances/GDE3/UF7_2 0 2 2
+data-instances/MOEA_D_DE/UF7_2 4 0 0
+data-instances/NSGAII_DE/UF7_2 0 2 2
+data-instances/Proposal_DE/UF7_2 3 1 0
+data-instances/SMS_EMOA_DE/UF7_2 0 2 2
+instance  UF8_3
+file Wins Loses Ties
+data-instances/GDE3/UF8_3 0 4 0
+data-instances/MOEA_D_DE/UF8_3 3 0 1
+data-instances/NSGAII_DE/UF8_3 1 3 0
+data-instances/Proposal_DE/UF8_3 3 0 1
+data-instances/SMS_EMOA_DE/UF8_3 2 2 0
+instance  UF9_3
+file Wins Loses Ties
+data-instances/GDE3/UF9_3 0 4 0
+data-instances/MOEA_D_DE/UF9_3 2 2 0
+data-instances/NSGAII_DE/UF9_3 1 3 0
+data-instances/Proposal_DE/UF9_3 4 0 0
+data-instances/SMS_EMOA_DE/UF9_3 3 1 0
+instance  WFG1_2
+file Wins Loses Ties
+data-instances/GDE3/WFG1_2 0 2 2
+data-instances/MOEA_D_DE/WFG1_2 3 1 0
+data-instances/NSGAII_DE/WFG1_2 1 2 1
+data-instances/Proposal_DE/WFG1_2 4 0 0
+data-instances/SMS_EMOA_DE/WFG1_2 0 3 1
+instance  WFG1_3
+file Wins Loses Ties
+data-instances/GDE3/WFG1_3 0 3 1
+data-instances/MOEA_D_DE/WFG1_3 3 0 1
+data-instances/NSGAII_DE/WFG1_3 1 3 0
+data-instances/Proposal_DE/WFG1_3 3 0 1
+data-instances/SMS_EMOA_DE/WFG1_3 1 2 1
+instance  WFG2_2
+file Wins Loses Ties
+data-instances/GDE3/WFG2_2 2 1 1
+data-instances/MOEA_D_DE/WFG2_2 0 4 0
+data-instances/NSGAII_DE/WFG2_2 2 1 1
+data-instances/Proposal_DE/WFG2_2 1 3 0
+data-instances/SMS_EMOA_DE/WFG2_2 4 0 0
+instance  WFG2_3
+file Wins Loses Ties
+data-instances/GDE3/WFG2_3 0 1 3
+data-instances/MOEA_D_DE/WFG2_3 0 1 3
+data-instances/NSGAII_DE/WFG2_3 0 1 3
+data-instances/Proposal_DE/WFG2_3 3 1 0
+data-instances/SMS_EMOA_DE/WFG2_3 1 0 3
+instance  WFG3_2
+file Wins Loses Ties
+data-instances/GDE3/WFG3_2 1 3 0
+data-instances/MOEA_D_DE/WFG3_2 2 1 1
+data-instances/NSGAII_DE/WFG3_2 0 4 0
+data-instances/Proposal_DE/WFG3_2 2 1 1
+data-instances/SMS_EMOA_DE/WFG3_2 4 0 0
+instance  WFG3_3
+file Wins Loses Ties
+data-instances/GDE3/WFG3_3 1 2 1
+data-instances/MOEA_D_DE/WFG3_3 2 2 0
+data-instances/NSGAII_DE/WFG3_3 0 3 1
+data-instances/Proposal_DE/WFG3_3 3 1 0
+data-instances/SMS_EMOA_DE/WFG3_3 2 0 2
+instance  WFG4_2
+file Wins Loses Ties
+data-instances/GDE3/WFG4_2 1 2 1
+data-instances/MOEA_D_DE/WFG4_2 3 1 0
+data-instances/NSGAII_DE/WFG4_2 0 4 0
+data-instances/Proposal_DE/WFG4_2 1 2 1
+data-instances/SMS_EMOA_DE/WFG4_2 4 0 0
+instance  WFG4_3
+file Wins Loses Ties
+data-instances/GDE3/WFG4_3 0 2 2
+data-instances/MOEA_D_DE/WFG4_3 2 1 1
+data-instances/NSGAII_DE/WFG4_3 1 1 2
+data-instances/Proposal_DE/WFG4_3 0 0 4
+data-instances/SMS_EMOA_DE/WFG4_3 1 0 3
+instance  WFG5_2
+file Wins Loses Ties
+data-instances/GDE3/WFG5_2 3 0 1
+data-instances/MOEA_D_DE/WFG5_2 0 4 0
+data-instances/NSGAII_DE/WFG5_2 2 1 1
+data-instances/Proposal_DE/WFG5_2 1 3 0
+data-instances/SMS_EMOA_DE/WFG5_2 2 0 2
+instance  WFG5_3
+file Wins Loses Ties
+data-instances/GDE3/WFG5_3 3 0 1
+data-instances/MOEA_D_DE/WFG5_3 2 2 0
+data-instances/NSGAII_DE/WFG5_3 0 3 1
+data-instances/Proposal_DE/WFG5_3 1 3 0
+data-instances/SMS_EMOA_DE/WFG5_3 2 0 2
+instance  WFG6_2
+file Wins Loses Ties
+data-instances/GDE3/WFG6_2 1 2 1
+data-instances/MOEA_D_DE/WFG6_2 3 0 1
+data-instances/NSGAII_DE/WFG6_2 0 4 0
+data-instances/Proposal_DE/WFG6_2 2 1 1
+data-instances/SMS_EMOA_DE/WFG6_2 1 0 3
+instance  WFG6_3
+file Wins Loses Ties
+data-instances/GDE3/WFG6_3 0 3 1
+data-instances/MOEA_D_DE/WFG6_3 2 1 1
+data-instances/NSGAII_DE/WFG6_3 1 3 0
+data-instances/Proposal_DE/WFG6_3 2 2 0
+data-instances/SMS_EMOA_DE/WFG6_3 4 0 0
+instance  WFG7_2
+file Wins Loses Ties
+data-instances/GDE3/WFG7_2 1 3 0
+data-instances/MOEA_D_DE/WFG7_2 2 2 0
+data-instances/NSGAII_DE/WFG7_2 0 4 0
+data-instances/Proposal_DE/WFG7_2 3 1 0
+data-instances/SMS_EMOA_DE/WFG7_2 4 0 0
+instance  WFG7_3
+file Wins Loses Ties
+data-instances/GDE3/WFG7_3 0 1 3
+data-instances/MOEA_D_DE/WFG7_3 2 1 1
+data-instances/NSGAII_DE/WFG7_3 0 1 3
+data-instances/Proposal_DE/WFG7_3 0 0 4
+data-instances/SMS_EMOA_DE/WFG7_3 1 0 3
+instance  WFG8_2
+file Wins Loses Ties
+data-instances/GDE3/WFG8_2 0 0 4
+data-instances/MOEA_D_DE/WFG8_2 0 0 4
+data-instances/NSGAII_DE/WFG8_2 0 1 3
+data-instances/Proposal_DE/WFG8_2 1 0 3
+data-instances/SMS_EMOA_DE/WFG8_2 0 0 4
+instance  WFG8_3
+file Wins Loses Ties
+data-instances/GDE3/WFG8_3 0 2 2
+data-instances/MOEA_D_DE/WFG8_3 2 2 0
+data-instances/NSGAII_DE/WFG8_3 1 3 0
+data-instances/Proposal_DE/WFG8_3 2 0 2
+data-instances/SMS_EMOA_DE/WFG8_3 2 0 2
+instance  WFG9_2
+file Wins Loses Ties
+data-instances/GDE3/WFG9_2 1 2 1
+data-instances/MOEA_D_DE/WFG9_2 3 1 0
+data-instances/NSGAII_DE/WFG9_2 0 4 0
+data-instances/Proposal_DE/WFG9_2 4 0 0
+data-instances/SMS_EMOA_DE/WFG9_2 1 2 1
+instance  WFG9_3
+file Wins Loses Ties
+data-instances/GDE3/WFG9_3 1 3 0
+data-instances/MOEA_D_DE/WFG9_3 2 1 1
+data-instances/NSGAII_DE/WFG9_3 0 4 0
+data-instances/Proposal_DE/WFG9_3 4 0 0
+data-instances/SMS_EMOA_DE/WFG9_3 2 1 1

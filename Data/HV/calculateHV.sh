@@ -42,6 +42,8 @@ do
               echo "" >>${algname[${cont}]}/${i}_2
 
    done
+
+
   for i in DTLZ5 DTLZ6;
 	do
 		rm ${algname[$cont]}/${i}_2
@@ -126,6 +128,8 @@ do
               echo "" >>${algname[${cont}]}/${i}_3
 #      ./hv -r "0.55 0.55 0.55" $file >>${algname[${cont}]}/${i}_3
    done
+        value=$(awk 'BEGIN{print sqrt(0.5)+0.1*sqrt(0.5)}')
+        reference="$value $value 1.1"
   for i in DTLZ5 DTLZ6;
 	do
 		rm ${algname[$cont]}/${i}_3
@@ -133,9 +137,9 @@ do
 	   for file in ../$alg/${i}_3*
 	   do
 	   #./hv -r "${value} ${value}" $file >>${algname[${cont}]}/${i}_2
-	      v1=$(./hv -r "1.1 1.1 1.1" $file)
+	      v1=$(./hv -r "$reference" $file)
 	      v1="${v1:-0}"
-	      v2=$(./hv -r "1.1 1.1 1.1" ../Optimals/${i}_3.txt )
+	      v2=$(./hv -r "$reference" ../Optimals/${i}_3.txt )
               echo print ${v1}/${v2} | perl  >> ${algname[${cont}]}/${i}_3
               echo "" >>${algname[${cont}]}/${i}_3
 	   #./hv -r "1.1 1.1 1.1" $file >>${algname[${cont}]}/${i}_3

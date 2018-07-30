@@ -1,1 +1,4 @@
-for i in $(cat List); do echo "--"$i >> file; for moea in $(ls data-instances/);  do echo data-instances/${moea}/${i}>>file ;  done; done
+for i in $(grep _2 List); do echo "--"$i >> file_DE; for moea in $(ls data-instances/ | grep DE);  do echo data-instances/${moea}/${i}>>file_DE ;  done; done
+for i in $(grep _3 List); do echo "--"$i >> file_DE; for moea in $(ls data-instances/ | grep DE);  do echo data-instances/${moea}/${i}>>file_DE ;  done; done
+for i in $(grep _2 List); do echo "--"$i >> file_SBX; for moea in $(ls data-instances/ | grep SBX);  do echo data-instances/${moea}/${i}>>file_SBX ;  done; done
+for i in $(grep _3 List); do echo "--"$i >> file_SBX; for moea in $(ls data-instances/ | grep SBX);  do echo data-instances/${moea}/${i}>>file_SBX ;  done; done

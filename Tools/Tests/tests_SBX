@@ -1,0 +1,253 @@
+file Wins Loses Ties
+instance  DTLZ1_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ1_2 1 1 1
+data-instances/NSGAII_SBX/DTLZ1_2 0 3 0
+data-instances/Proposal_SBX/DTLZ1_2 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ1_2 3 0 0
+instance  DTLZ1_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ1_3 1 1 1
+data-instances/NSGAII_SBX/DTLZ1_3 0 2 1
+data-instances/Proposal_SBX/DTLZ1_3 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ1_3 2 0 1
+instance  DTLZ2_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ2_2 1 1 1
+data-instances/NSGAII_SBX/DTLZ2_2 0 3 0
+data-instances/Proposal_SBX/DTLZ2_2 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ2_2 3 0 0
+instance  DTLZ2_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ2_3 1 2 0
+data-instances/NSGAII_SBX/DTLZ2_3 0 2 1
+data-instances/Proposal_SBX/DTLZ2_3 2 1 0
+data-instances/SMS_EMOA_SBX/DTLZ2_3 2 0 1
+instance  DTLZ3_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ3_2 1 1 1
+data-instances/NSGAII_SBX/DTLZ3_2 0 3 0
+data-instances/Proposal_SBX/DTLZ3_2 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ3_2 3 0 0
+instance  DTLZ3_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ3_3 1 1 1
+data-instances/NSGAII_SBX/DTLZ3_3 0 2 1
+data-instances/Proposal_SBX/DTLZ3_3 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ3_3 2 0 1
+instance  DTLZ4_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ4_2 0 2 1
+data-instances/NSGAII_SBX/DTLZ4_2 0 1 2
+data-instances/Proposal_SBX/DTLZ4_2 2 0 1
+data-instances/SMS_EMOA_SBX/DTLZ4_2 1 0 2
+instance  DTLZ4_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ4_3 0 2 1
+data-instances/NSGAII_SBX/DTLZ4_3 0 1 2
+data-instances/Proposal_SBX/DTLZ4_3 2 0 1
+data-instances/SMS_EMOA_SBX/DTLZ4_3 1 0 2
+instance  DTLZ5_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ5_2 1 1 1
+data-instances/NSGAII_SBX/DTLZ5_2 0 3 0
+data-instances/Proposal_SBX/DTLZ5_2 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ5_2 3 0 0
+instance  DTLZ5_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ5_3 1 2 0
+data-instances/NSGAII_SBX/DTLZ5_3 2 1 0
+data-instances/Proposal_SBX/DTLZ5_3 0 3 0
+data-instances/SMS_EMOA_SBX/DTLZ5_3 3 0 0
+instance  DTLZ6_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ6_2 2 1 0
+data-instances/NSGAII_SBX/DTLZ6_2 0 2 1
+data-instances/Proposal_SBX/DTLZ6_2 3 0 0
+data-instances/SMS_EMOA_SBX/DTLZ6_2 0 2 1
+instance  DTLZ6_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ6_3 1 1 1
+data-instances/NSGAII_SBX/DTLZ6_3 1 1 1
+data-instances/Proposal_SBX/DTLZ6_3 3 0 0
+data-instances/SMS_EMOA_SBX/DTLZ6_3 0 3 0
+instance  DTLZ7_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ7_2 0 2 1
+data-instances/NSGAII_SBX/DTLZ7_2 3 0 0
+data-instances/Proposal_SBX/DTLZ7_2 1 1 1
+data-instances/SMS_EMOA_SBX/DTLZ7_2 1 2 0
+instance  DTLZ7_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/DTLZ7_3 0 3 0
+data-instances/NSGAII_SBX/DTLZ7_3 2 0 1
+data-instances/Proposal_SBX/DTLZ7_3 2 0 1
+data-instances/SMS_EMOA_SBX/DTLZ7_3 1 2 0
+instance  UF10_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF10_3 0 3 0
+data-instances/NSGAII_SBX/UF10_3 1 2 0
+data-instances/Proposal_SBX/UF10_3 2 0 1
+data-instances/SMS_EMOA_SBX/UF10_3 2 0 1
+instance  UF1_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF1_2 0 2 1
+data-instances/NSGAII_SBX/UF1_2 1 2 0
+data-instances/Proposal_SBX/UF1_2 1 0 2
+data-instances/SMS_EMOA_SBX/UF1_2 2 0 1
+instance  UF2_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF2_2 1 1 1
+data-instances/NSGAII_SBX/UF2_2 0 2 1
+data-instances/Proposal_SBX/UF2_2 3 0 0
+data-instances/SMS_EMOA_SBX/UF2_2 1 2 0
+instance  UF3_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF3_2 0 2 1
+data-instances/NSGAII_SBX/UF3_2 1 1 1
+data-instances/Proposal_SBX/UF3_2 3 0 0
+data-instances/SMS_EMOA_SBX/UF3_2 1 2 0
+instance  UF4_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF4_2 2 1 0
+data-instances/NSGAII_SBX/UF4_2 0 3 0
+data-instances/Proposal_SBX/UF4_2 3 0 0
+data-instances/SMS_EMOA_SBX/UF4_2 1 2 0
+instance  UF5_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF5_2 2 1 0
+data-instances/NSGAII_SBX/UF5_2 0 2 1
+data-instances/Proposal_SBX/UF5_2 3 0 0
+data-instances/SMS_EMOA_SBX/UF5_2 0 2 1
+instance  UF6_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF6_2 2 1 0
+data-instances/NSGAII_SBX/UF6_2 0 2 1
+data-instances/Proposal_SBX/UF6_2 3 0 0
+data-instances/SMS_EMOA_SBX/UF6_2 0 2 1
+instance  UF7_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF7_2 0 2 1
+data-instances/NSGAII_SBX/UF7_2 2 1 0
+data-instances/Proposal_SBX/UF7_2 3 0 0
+data-instances/SMS_EMOA_SBX/UF7_2 0 2 1
+instance  UF8_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF8_3 1 1 1
+data-instances/NSGAII_SBX/UF8_3 0 3 0
+data-instances/Proposal_SBX/UF8_3 2 0 1
+data-instances/SMS_EMOA_SBX/UF8_3 1 0 2
+instance  UF9_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/UF9_3 1 2 0
+data-instances/NSGAII_SBX/UF9_3 0 3 0
+data-instances/Proposal_SBX/UF9_3 2 0 1
+data-instances/SMS_EMOA_SBX/UF9_3 2 0 1
+instance  WFG1_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG1_2 1 1 1
+data-instances/NSGAII_SBX/WFG1_2 0 1 2
+data-instances/Proposal_SBX/WFG1_2 3 0 0
+data-instances/SMS_EMOA_SBX/WFG1_2 0 2 1
+instance  WFG1_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG1_3 2 1 0
+data-instances/NSGAII_SBX/WFG1_3 0 2 1
+data-instances/Proposal_SBX/WFG1_3 3 0 0
+data-instances/SMS_EMOA_SBX/WFG1_3 0 2 1
+instance  WFG2_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG2_2 0 3 0
+data-instances/NSGAII_SBX/WFG2_2 1 1 1
+data-instances/Proposal_SBX/WFG2_2 3 0 0
+data-instances/SMS_EMOA_SBX/WFG2_2 1 1 1
+instance  WFG2_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG2_3 0 2 1
+data-instances/NSGAII_SBX/WFG2_3 0 2 1
+data-instances/Proposal_SBX/WFG2_3 2 0 1
+data-instances/SMS_EMOA_SBX/WFG2_3 2 0 1
+instance  WFG3_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG3_2 0 2 1
+data-instances/NSGAII_SBX/WFG3_2 0 1 2
+data-instances/Proposal_SBX/WFG3_2 2 1 0
+data-instances/SMS_EMOA_SBX/WFG3_2 2 0 1
+instance  WFG3_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG3_3 1 1 1
+data-instances/NSGAII_SBX/WFG3_3 0 2 1
+data-instances/Proposal_SBX/WFG3_3 1 1 1
+data-instances/SMS_EMOA_SBX/WFG3_3 2 0 1
+instance  WFG4_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG4_2 1 1 1
+data-instances/NSGAII_SBX/WFG4_2 0 3 0
+data-instances/Proposal_SBX/WFG4_2 1 1 1
+data-instances/SMS_EMOA_SBX/WFG4_2 3 0 0
+instance  WFG4_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG4_3 1 2 0
+data-instances/NSGAII_SBX/WFG4_3 0 2 1
+data-instances/Proposal_SBX/WFG4_3 2 1 0
+data-instances/SMS_EMOA_SBX/WFG4_3 2 0 1
+instance  WFG5_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG5_2 0 1 2
+data-instances/NSGAII_SBX/WFG5_2 0 1 2
+data-instances/Proposal_SBX/WFG5_2 0 1 2
+data-instances/SMS_EMOA_SBX/WFG5_2 3 0 0
+instance  WFG5_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG5_3 1 1 1
+data-instances/NSGAII_SBX/WFG5_3 0 3 0
+data-instances/Proposal_SBX/WFG5_3 1 1 1
+data-instances/SMS_EMOA_SBX/WFG5_3 3 0 0
+instance  WFG6_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG6_2 0 0 3
+data-instances/NSGAII_SBX/WFG6_2 0 0 3
+data-instances/Proposal_SBX/WFG6_2 0 0 3
+data-instances/SMS_EMOA_SBX/WFG6_2 0 0 3
+instance  WFG6_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG6_3 1 1 1
+data-instances/NSGAII_SBX/WFG6_3 0 1 2
+data-instances/Proposal_SBX/WFG6_3 0 1 2
+data-instances/SMS_EMOA_SBX/WFG6_3 2 0 1
+instance  WFG7_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG7_2 1 2 0
+data-instances/NSGAII_SBX/WFG7_2 0 3 0
+data-instances/Proposal_SBX/WFG7_2 2 1 0
+data-instances/SMS_EMOA_SBX/WFG7_2 3 0 0
+instance  WFG7_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG7_3 1 2 0
+data-instances/NSGAII_SBX/WFG7_3 0 3 0
+data-instances/Proposal_SBX/WFG7_3 2 1 0
+data-instances/SMS_EMOA_SBX/WFG7_3 3 0 0
+instance  WFG8_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG8_2 1 1 1
+data-instances/NSGAII_SBX/WFG8_2 0 3 0
+data-instances/Proposal_SBX/WFG8_2 3 0 0
+data-instances/SMS_EMOA_SBX/WFG8_2 1 1 1
+instance  WFG8_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG8_3 0 1 2
+data-instances/NSGAII_SBX/WFG8_3 0 1 2
+data-instances/Proposal_SBX/WFG8_3 2 1 0
+data-instances/SMS_EMOA_SBX/WFG8_3 1 0 2
+instance  WFG9_2
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG9_2 2 1 0
+data-instances/NSGAII_SBX/WFG9_2 1 2 0
+data-instances/Proposal_SBX/WFG9_2 0 3 0
+data-instances/SMS_EMOA_SBX/WFG9_2 3 0 0
+instance  WFG9_3
+file Wins Loses Ties
+data-instances/MOEA_D_SBX/WFG9_3 1 1 1
+data-instances/NSGAII_SBX/WFG9_3 0 3 0
+data-instances/Proposal_SBX/WFG9_3 1 1 1
+data-instances/SMS_EMOA_SBX/WFG9_3 3 0 0
