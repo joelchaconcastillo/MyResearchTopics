@@ -10,13 +10,16 @@ struct Point {
 
 double getDistance(Point &p, Point &ref){
 	double d = 0;
+	
 	for (int i = 0; i < DIM; i++){
-		if (p.x[i] < ref.x[i]){
-			d += (p.x[i] - ref.x[i]) * (p.x[i] - ref.x[i]);
-		}else
-		{
-			d += 0.1*(ref.x[i]-p.x[i]) * (ref.x[i] - p.x[i]);
+		double refc= ref.x[i] + 2.0* ref.x[i];
+		if (p.x[i] < refc){
+			d += (p.x[i] - refc) * (p.x[i] - refc);
 		}
+	//	else
+	//	{
+	//		d += 0.1*(ref.x[i]-p.x[i]) * (ref.x[i] - p.x[i]);
+	//	}
 	}
 	return sqrt(d);
 }
@@ -32,7 +35,7 @@ int main(){
 		for (int j = 0; j < DIM; j++){
 			mod += p.x[j] * p.x[j];
 		}
-		mod = sqrt(mod);
+		mod = sin(sqrt(mod));
 		for (int j = 0; j < DIM; j++){
 			p.x[j] /= mod;
 		//	p.x[j] *= (j+1.0)*Scale;
@@ -54,8 +57,8 @@ int main(){
 		points[bestIndex] = points.back();
 		points.pop_back();
 	}
-	for (int i = 0; i < 200; i++){
-		cerr << "Va por " << i << endl;
+	for (int i = 0; i < 100; i++){
+//		cerr << "Va por " << i << endl;
 		double largestDistance = 0;
 		int bestIndex = -1;
 		for (int j = 0; j < points.size(); j++){

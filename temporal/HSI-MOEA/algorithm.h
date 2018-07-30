@@ -84,11 +84,11 @@ double MOEA::distance_improvement2( vector<double> &reference, vector<double> &c
 		double current_normalized2 = r1*sin(omega1 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 //	cout << current[i] << " " << current_normalized <<endl;
 		//double reference_normalized = reference[i];///(2.0*(i+1.0));// (reference[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
-		double reference_normalized = reference[i];// r2*sin(omega2 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
+		double reference_normalized = reference[i]-0.1*reference[i];// r2*sin(omega2 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 		double reference_normalized2 = r2*sin(omega2 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
-	   if(current_normalized <= reference_normalized)
+//	   if(current_normalized <= reference_normalized)
 	   {
-	      dist1 += (reference_normalized2-current_normalized2)*(reference_normalized2-current_normalized2);// (reference[i] - current[i])*(reference[i] - current[i]);
+	      dist1 += (reference_normalized-current_normalized)*(reference_normalized-current_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	   }
 //	   else
 //	      dist1 -= 0.1*(current_normalized - reference_normalized)*(current_normalized - reference_normalized);
@@ -125,11 +125,11 @@ double MOEA::distance_improvement( vector<double> &reference, vector<double> &cu
 		double current_normalized2 = r1*sin(omega1 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 //	cout << current[i] << " " << current_normalized <<endl;
 		//double reference_normalized = reference[i];///(2.0*(i+1.0));// (reference[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
-		double reference_normalized = reference[i];// r2*sin(omega2 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
+		double reference_normalized = reference[i] ;// r2*sin(omega2 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 		double reference_normalized2 = r2*sin(omega2 + S*M_PI)/sin(S*M_PI);///(2.0*(i+1.0));// (current[i]-idealpoint[i])/(nadirpoint[i] - idealpoint[i]);
 	   if(current_normalized <= reference_normalized)
 	   {
-	      dist1 += (reference_normalized2-current_normalized2)*(reference_normalized2-current_normalized2);// (reference[i] - current[i])*(reference[i] - current[i]);
+	      dist1 += (reference_normalized-current_normalized)*(reference_normalized-current_normalized);// (reference[i] - current[i])*(reference[i] - current[i]);
 	   }
 //	   else
 //	      dist1 -= 0.1*(current_normalized - reference_normalized)*(current_normalized - reference_normalized);
@@ -235,7 +235,8 @@ void MOEA::evol_population()
 	for(int i = 0; i < pops; i++) order.push_back(i);
 	
 
-	improvement_selection_vectors(child_pop, population);
+	improvement_selection(child_pop, population);
+	//improvement_selection_vectors(child_pop, population);
 
 	update_reference_vectors();
     //for(int sub=0; sub<order.size(); sub++)
@@ -361,10 +362,9 @@ void MOEA::improvement_selection_vectors(vector<CSubproblem> &offspring, vector<
 	  double minobj = INFINITY;
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
-	   double extremefitness = 0.0;
-//candidates[i].y_obj[j] + 0.1*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
+	   double extremefitness =candidates[i].y_obj[j] + 0.1*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
 
-	     for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
+//	     for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
 //	   double extremefitness = sumfit[i];
 //	   double extremefitness = -INFINITY;
 //	for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
@@ -498,15 +498,20 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	  double minobj = INFINITY;
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
-	   double extremefitness = 0.0;
-//candidates[i].y_obj[j] + 0.1*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
+	   double extremefitness =  0.0;//candidates[i].y_obj[j] ;//+ 0.01*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
 
-	     for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
+//	     for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
 //	   double extremefitness = sumfit[i];
 //	   double extremefitness = -INFINITY;
 //	for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
 	   //double extremefitness = fabs(candidates[i].y_obj[j]) + 0.001*sumfit[i];
 	  // double extremefitness =  ;//sumfit[i];
+	double d1=0.0, d2=0.0;
+	double teta = 2.0;
+        d1 = candidates[i].y_obj[j];
+	d2 =  (candidates[i].y_obj[j] + d1);
+	extremefitness = d1+teta*d2;
+
 	   if( extremefitness < minf )
 	   {
 		minf = extremefitness;
@@ -517,7 +522,7 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 
 //		indexb = int(rnd_uni(&rnd_uni_init)*candidates.size()) ;//;rnd_uni(&rnd_uni_init);
 //	for(int k = 0; k < nobj; k++)
-	   candidates[indexb].y_obj[j] -= 0.1*candidates[indexb].y_obj[j];
+//	   candidates[indexb].y_obj[j] -= 2.0*candidates[indexb].y_obj[j];
 	    reference.push_back(candidates[indexb]);
 	    iter_swap(candidates.begin()+indexb, candidates.end()-1);
 	    candidates.pop_back();
@@ -555,10 +560,11 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 		{
 		   //pqimprovement.push( make_pair( -distance_improvement(candidates[i].y_obj, reference[j].y_obj), -distance_improvement(reference[j].y_obj, candidates[i].y_obj) ));
 
-		   double score2 = distance_improvement2(reference[j].y_obj, candidates[i].y_obj, 0.6) ;//+ 0.01*distance(reference[j].y_obj, candidates[i].y_obj); 
-		   double dist = distance(reference[j].y_obj, candidates[i].y_obj);
+		   double score2 = distance_improvement(reference[j].y_obj, candidates[i].y_obj) ;//+ 0.01*distance(reference[j].y_obj, candidates[i].y_obj); 
+	//	   score2 -= distance_improvement2(reference[j].y_obj, candidates[i].y_obj,0.4) ;//+ 0.01*distance(reference[j].y_obj, candidates[i].y_obj); 
+		   double dist = 0.5*distance(reference[j].y_obj, candidates[i].y_obj);
 		   //pqimprovement.push( make_pair(-score2, -dist ));
-		   pqimprovement.push( make_pair(-score2, -(score2) ));
+		   pqimprovement.push( make_pair(-score2, -score2 ));
 		}
 		double score =0.0;// -pqimprovement.top().first-0.1*pqimprovement.top().second;//+ 0.1*pqimprovement.top().second;
 		  score += -pqimprovement.top().first;
@@ -591,9 +597,17 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	//getchar();
 	//for(int i = 0; i < nobj; i++)
 	//reference[reference.size()-i-1].y_obj[i]-=1;
+
+
+
    for(int i = 0; i < reference.size(); i++)   
    {
 
+   for(int j = 0; j < reference.size(); j++)   
+   {
+	if(i==j)continue;
+	distances[i] = min(distances[i], distance(reference[i].y_obj, reference[j].y_obj) );
+    }
       parents[i].indiv = reference[i]; 
       parents[i].indiv.obj_eval();
       parents[i].dist = distances[i];

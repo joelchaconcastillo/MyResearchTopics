@@ -1,0 +1,1 @@
+for i in $(cat List); do echo "--"$i >> file; for moea in $(ls data-instances/);  do echo data-instances/${moea}/${i}>>file ;  done; done
