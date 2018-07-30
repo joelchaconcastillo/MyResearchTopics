@@ -1,170 +1,170 @@
 niche=10
 #POF_MOEAD_UF6_RUN7_seed_30_nobj_2_niche_10.dat_bounded-5.477226_D_1.0
-#for Di in 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1;
-#do
-#  for nobj in {2..3};
-#  do
-#     reference=""
-#     for k in $(seq 1 $nobj); do reference=$reference" "$((2*$k+1)); done
-#     for i in WFG1 WFG2 WFG3 WFG4 WFG5 WFG6 WFG7 WFG8 WFG9;
-#     do
-#  	   fileout=${i}_${nobj}_${Di}
-#  	   rm $fileout
-#   	   for k in {1..35}
-#  	   do
-#  	   file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#  	      v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	      v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl  >> $fileout
-#	     echo "" >>$fileout 
-#  	   done 
-#     done
-#     if [ $nobj -eq 2 ]
-#        then
-#        reference=""
-#        for k in $(seq 1 $nobj); do reference=$reference" "1.1; done
-#        for i in UF1 UF2 UF3 UF4 UF5 UF6 UF7;
-#        do
-#  	      fileout=${i}_${nobj}_${Di}
-#              rm $fileout
-#              for k in {1..35}
-#              do
-#              file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#  	      v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	      v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-#                 #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#              done
-#        done
-#     fi
-#
-#     if [ $nobj -eq 3 ]
-#        then
-#        reference=""
-#        for k in $(seq 1 $nobj); do reference=$reference" "1.1; done
-#        for i in UF8 UF9 UF10;
-#        do
-#  	      #fileout=${i}_${nobj}_${niche}
-#  	      fileout=${i}_${nobj}_${Di}
-#              rm $fileout
-#              rm $fileout
-#              for k in {1..35}
-#              do
-#              file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#  	      v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	      v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-##                 cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#              done
-#        done
-#     fi
-#
-#
-#
-#
-#
-#     reference=""
-#     for k in $(seq 1 $nobj); do reference=$reference" "2; done
-#     for i in DTLZ2 DTLZ4;
-#     do
-#  	   fileout=${i}_${nobj}_${Di}
-#  	   #fileout=${i}_${nobj}_${niche}
-#  	   rm $fileout
-#   	   for k in {1..35}
-#  	   do
-#  	   file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#   	     v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	     v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-#  	     # cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#  	   done
-#     done
-#  
-#     reference=""
-#     i="DTLZ1"
-#     for k in $(seq 1 $nobj); do reference=$reference" "1; done
-#  	   #fileout=${i}_${nobj}_${niche}
-#  	   fileout=${i}_${nobj}_${Di}
-#             rm $fileout
-#     for k in {1..35}
-#     do
-#     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#   	     v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	     v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-#        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#     done
-#  
-#     reference=""
-#     i="DTLZ3"
-#     for k in $(seq 1 $nobj); do reference=$reference" "7; done
-#  	   fileout=${i}_${nobj}_${Di}
-#  	   #fileout=${i}_${nobj}_${niche}
-#     	   rm $fileout
-#     for k in {1..35}
-#     do
-#     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-# 	    v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	     v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-#        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#     done
-#  
-#     reference=""
-#     i="DTLZ5"
-#     for k in $(seq 1 $nobj); do reference=$reference" "4; done
-#  	   #fileout=${i}_${nobj}_${niche}
-#  	   fileout=${i}_${nobj}_${Di}
-#     	   rm $fileout
-#     for k in {1..35}
-#     do
-#     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#    	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-##        cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#     done
-#  
-#     reference=""
-#     i="DTLZ6"
-#     for k in $(seq 1 $nobj); do reference=$reference" "11; done
-#  	   #fileout=${i}_${nobj}_${niche}
-#  	   fileout=${i}_${nobj}_${Di}
-#     	   rm $fileout
-#     for k in {1..35}
-#     do
-#     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#    	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-#        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#     done
-#  
-#     reference=""
-#     i="DTLZ7"
-#     for k in $(seq 1 $nobj); do reference=$reference" "21; done
-#  	   #fileout=${i}_${nobj}_${niche}
-#  	   fileout=${i}_${nobj}_${Di}
-#     	   rm $fileout
-#     for k in {1..35}
-#     do
-#     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
-#	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
-#	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
-#	     echo print ${v1}/${v2} | perl >> $fileout
-#	     echo "" >>$fileout 
-#        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
-#     done
-#  
-#  done
-#done
+for Di in 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1;
+do
+  for nobj in {2..3};
+  do
+     reference=""
+     for k in $(seq 1 $nobj); do reference=$reference" "$((2*$k+1)); done
+     for i in WFG1 WFG2 WFG3 WFG4 WFG5 WFG6 WFG7 WFG8 WFG9;
+     do
+  	   fileout=${i}_${nobj}_${Di}
+  	   rm $fileout
+   	   for k in {1..35}
+  	   do
+  	   file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+  	      v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	      v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl  >> $fileout
+	     echo "" >>$fileout 
+  	   done 
+     done
+     if [ $nobj -eq 2 ]
+        then
+        reference=""
+        for k in $(seq 1 $nobj); do reference=$reference" "1.1; done
+        for i in UF1 UF2 UF3 UF4 UF5 UF6 UF7;
+        do
+  	      fileout=${i}_${nobj}_${Di}
+              rm $fileout
+              for k in {1..35}
+              do
+              file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+  	      v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	      v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+                 #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+              done
+        done
+     fi
+
+     if [ $nobj -eq 3 ]
+        then
+        reference=""
+        for k in $(seq 1 $nobj); do reference=$reference" "1.1; done
+        for i in UF8 UF9 UF10;
+        do
+  	      #fileout=${i}_${nobj}_${niche}
+  	      fileout=${i}_${nobj}_${Di}
+              rm $fileout
+              rm $fileout
+              for k in {1..35}
+              do
+              file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+  	      v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	      v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+#                 cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+              done
+        done
+     fi
+
+
+
+
+
+     reference=""
+     for k in $(seq 1 $nobj); do reference=$reference" "2; done
+     for i in DTLZ2 DTLZ4;
+     do
+  	   fileout=${i}_${nobj}_${Di}
+  	   #fileout=${i}_${nobj}_${niche}
+  	   rm $fileout
+   	   for k in {1..35}
+  	   do
+  	   file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+   	     v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	     v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+  	     # cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+  	   done
+     done
+  
+     reference=""
+     i="DTLZ1"
+     for k in $(seq 1 $nobj); do reference=$reference" "1; done
+  	   #fileout=${i}_${nobj}_${niche}
+  	   fileout=${i}_${nobj}_${Di}
+             rm $fileout
+     for k in {1..35}
+     do
+     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+   	     v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	     v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+     done
+  
+     reference=""
+     i="DTLZ3"
+     for k in $(seq 1 $nobj); do reference=$reference" "7; done
+  	   fileout=${i}_${nobj}_${Di}
+  	   #fileout=${i}_${nobj}_${niche}
+     	   rm $fileout
+     for k in {1..35}
+     do
+     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+ 	    v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	     v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+     done
+  
+     reference=""
+     i="DTLZ5"
+     for k in $(seq 1 $nobj); do reference=$reference" "4; done
+  	   #fileout=${i}_${nobj}_${niche}
+  	   fileout=${i}_${nobj}_${Di}
+     	   rm $fileout
+     for k in {1..35}
+     do
+     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+    	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+#        cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+     done
+  
+     reference=""
+     i="DTLZ6"
+     for k in $(seq 1 $nobj); do reference=$reference" "11; done
+  	   #fileout=${i}_${nobj}_${niche}
+  	   fileout=${i}_${nobj}_${Di}
+     	   rm $fileout
+     for k in {1..35}
+     do
+     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+    	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+     done
+  
+     reference=""
+     i="DTLZ7"
+     for k in $(seq 1 $nobj); do reference=$reference" "21; done
+  	   #fileout=${i}_${nobj}_${niche}
+  	   fileout=${i}_${nobj}_${Di}
+     	   rm $fileout
+     for k in {1..35}
+     do
+     file=../POF/POF_MOEAD_${i}_RUN${k}_*_nobj_${nobj}_niche_${niche}.dat_bounded*_${Di}
+	  v1=$(cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference")
+	  v2=$(./hv -r "$reference" ../Optimals/${i}_${nobj}.txt  )
+	     echo print ${v1}/${v2} | perl >> $fileout
+	     echo "" >>$fileout 
+        #cat $file | cut -d' ' -f 1-$((2*$nobj)) |./hv -r "$reference" >> $fileout
+     done
+  
+  done
+done
 
 
 rm RESULT*
