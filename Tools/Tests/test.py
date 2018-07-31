@@ -9,7 +9,7 @@ def check_means(file1, file2):
       return 1
    elif mean1 < mean2:
      return -1
-   else:
+   elif mean1==mean2:
      return 0
 
 def pair_test(file_a, file_b):
