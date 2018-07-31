@@ -496,48 +496,61 @@ void MOEA::improvement_selection(vector<CSubproblem> &offspring, vector<CSubprob
 	  double minf=INFINITY;
 	  int indexb=-1;
 	  double minobj = INFINITY;
+//	  double maxv = -INFINITY;
    	  for(int i = 0 ; i < candidates.size(); i++)
 	  {
-	   double extremefitness =  0.0;//candidates[i].y_obj[j] ;//+ 0.01*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
+//	     double minv = INFINITY;	
+//   	     for(int j = 0 ; j < candidates.size(); j++)
+//	     {
+//		if(i==j)continue;
+//		minv = min(minv, distance_improvement(candidates[i].y_obj, candidates[j].y_obj));	
+//	     }
+//	     if(minv > maxv)
+//		{
+//		   maxv = minv;
+//		   indexb = i;
+//		}
+//	  }
+      double extremefitness =  0.0;//candidates[i].y_obj[j] ;//+ 0.01*sumfit[i];  ;// fabs(candidates[i].y_obj[j] - idealpoint[j])/(nadirpoint[j] - idealpoint[j]);// + 0.001*sumfit[i];
 
-//	     for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
+	     for(int z = 0; z < nobj; z++) if(j!=z) extremefitness+=candidates[i].y_obj[z] ;
 //	   double extremefitness = sumfit[i];
 //	   double extremefitness = -INFINITY;
-//	for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
-	   //double extremefitness = fabs(candidates[i].y_obj[j]) + 0.001*sumfit[i];
-	  // double extremefitness =  ;//sumfit[i];
-	double d1=0.0, d2=0.0;
-	double teta = 2.0;
-        d1 = candidates[i].y_obj[j];
-	d2 =  (candidates[i].y_obj[j] + d1);
-	extremefitness = d1+teta*d2;
+	//for(int z = 0; z < nobj; z++) if(z!=j)	extremefitness = max(extremefitness,candidates[i].y_obj[z]);
+      //double extremefitness = fabs(candidates[i].y_obj[j]) + 0.001*sumfit[i];
+     // double extremefitness =  ;//sumfit[i];
+///   double d1=0.0, d2=0.0;
+///   double teta = 2.0;
+///       d1 = candidates[i].y_obj[j];
+///   d2 =  (candidates[i].y_obj[j] + d1);
+///   extremefitness = d1+teta*d2;
 
-	   if( extremefitness < minf )
-	   {
-		minf = extremefitness;
-		indexb = i;
-	   }
-		minobj = min(minobj, candidates[i].y_obj[j]);
-	  }
+      if( extremefitness < minf )
+      {
+   	minf = extremefitness;
+   	indexb = i;
+      }
+   	minobj = min(minobj, candidates[i].y_obj[j]);
+     }
 
-//		indexb = int(rnd_uni(&rnd_uni_init)*candidates.size()) ;//;rnd_uni(&rnd_uni_init);
-//	for(int k = 0; k < nobj; k++)
-//	   candidates[indexb].y_obj[j] -= 2.0*candidates[indexb].y_obj[j];
+//////		indexb = int(rnd_uni(&rnd_uni_init)*candidates.size()) ;//;rnd_uni(&rnd_uni_init);
+//////	for(int k = 0; k < nobj; k++)
+//////	   candidates[indexb].y_obj[j] -= 2.0*candidates[indexb].y_obj[j];
 	    reference.push_back(candidates[indexb]);
 	    iter_swap(candidates.begin()+indexb, candidates.end()-1);
 	    candidates.pop_back();
 	}
 //	if(nfes > max_nfes-pops-1)
-	{
-	for(int i = 0; i < nobj; i++)
-	{
-	   for(int j = 0; j < nobj; j++)
-	   {
-		cout << reference[i].y_obj[j]<<" ";
-	   }
-		cout << endl;
-	}
-	}
+//	{
+//	for(int i = 0; i < nobj; i++)
+//	{
+//	   for(int j = 0; j < nobj; j++)
+//	   {
+//		cout << reference[i].y_obj[j]<<" ";
+//	   }
+//		cout << endl;
+//	}
+//	}
 
 	double mean=0.0;
   while(reference.size() < pops) 
