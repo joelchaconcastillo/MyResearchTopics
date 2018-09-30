@@ -7,13 +7,13 @@ from scipy import stats
 import numpy as np
 def dcauchy(mu, gamma, N):
 #  return np.random.normal(mu, gamma+0.001, size=N);
-   return np.random.normal(mu, gamma, N)
+#   return np.random.normal(mu, gamma, N)
    data = mu + gamma*np.tan(np.pi*( np.random.randn(N)-0.5 ))
    for i in range(len(data)):
 	   while data[i] < 0.0:
 	      data[i] = mu + gamma*np.tan(np.pi*( np.random.randn(1)-0.5 ))	
-	   if data[i] > 1.0:
-	      data[i] = 1.0
+	   if data[i] > 1.5:
+	      data[i] = 1.5
    return data
 
 fig = plt.figure(figsize=(8, 6))
@@ -75,7 +75,7 @@ ax.hist(data, bins=100, normed=True)
 def animate(i):
     # simulate new data coming in
     print(0.5*i/total)
-    data = dcauchy( 0.2 ,0.05 , N)#np.random.randn(1000)
+    data = dcauchy( 0.5 ,0.1 , N)#np.random.randn(1000)
     #data = dcauchy( 0.5 ,0.5*i/total , N)#np.random.randn(1000)
     #xs = np.linspace(data.min()-1, data.max()+1, N)
    # ax.plot(xs, stats.norm.pdf(xs), 'r--')
