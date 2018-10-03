@@ -49,10 +49,11 @@ while size(Candidate,1) >= 2  %%Select the best individuals inside the constrain
   Candidate = removerows(Candidate,'ind',IndexDistances(Distances<=Di));
 end
 %Identify attraction bassis...
-knnsearch(Population(Penalized,:), Population(Survivors,:), 'k', size(Population(Survivors,:),1));
+[IndexDistances, Distances] = knnsearch(Population(Penalized,:), Population(Survivors,:), 'k', size(Population(Penalized,:),1));
+
 FPenalized = sin(Population(Penalized,1)*modas*pi) + cos(Population(Penalized,2)*modas*pi);
 FSurvivors = sin(Population(Survivors,1)*modas*pi) + cos(Population(Survivors,2)*modas*pi);
-
  hold on
-%Ranks(i) = Niche_i
-  s = scatter( Population(Survivors,1), Population(Survivors,2), 90, 'filled');
+s = scatter(Population(Survivors,1), Population(Survivors,2), 90, 'filled');
+ hold on
+s = scatter(Population(Penalized,1), Population(Penalized,2), 90, 'filled');  
